@@ -37,6 +37,15 @@
 				</td>
 			</tr>
 			<tr>
+				<td>003</td>
+				<td>Awake</td>
+				<td data-answer="awoke" contenteditable></td>
+				<td data-answer="awoked, awoken" contenteditable></td>
+				<td>
+					<button>Check</button>
+				</td>
+			</tr>
+			<tr>
 				<td></td>
 				<td>Go</td>
 				<td data-answer="went" contenteditable></td>
