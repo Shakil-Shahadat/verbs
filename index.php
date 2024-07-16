@@ -46,6 +46,15 @@
 				</td>
 			</tr>
 			<tr>
+				<td>004</td>
+				<td>Be</td>
+				<td data-answer="was" contenteditable></td>
+				<td data-answer="been" contenteditable></td>
+				<td>
+					<button>Check</button>
+				</td>
+			</tr>
+			<tr>
 				<td></td>
 				<td>Go</td>
 				<td data-answer="went" contenteditable></td>
