@@ -64,6 +64,15 @@
 				</td>
 			</tr>
 			<tr>
+				<td>006</td>
+				<td>Beat</td>
+				<td data-answer="beat" contenteditable></td>
+				<td data-answer="beaten" contenteditable></td>
+				<td>
+					<button>Check</button>
+				</td>
+			</tr>
+			<tr>
 				<td></td>
 				<td>Go</td>
 				<td data-answer="went" contenteditable></td>
