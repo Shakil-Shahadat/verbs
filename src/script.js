@@ -1,33 +1,35 @@
 'use strict';
 
-function checkAnswer( target )
+for ( let e of document.querySelector( 'table' ).querySelectorAll( 'button' ) )
 {
-	let focussed = false;
-	let targetP = target.querySelectorAll( 'td' )[ 2 ];
-	let targetPP = target.querySelectorAll( 'td' )[ 3 ];
+	e.addEventListener( 'click', function(){
+		let focussed = false;
+		let targetP = this.parentElement.parentElement.querySelectorAll( 'td' )[ 2 ];
+		let targetPP = this.parentElement.parentElement.querySelectorAll( 'td' )[ 3 ];
 
-	if ( targetP.innerText === targetP.dataset.answer )
-	{
-		targetP.style.backgroundColor = '#CCFF90';
-	}
-	else
-	{
-		targetP.style.backgroundColor = '#FFCDD2';
-		targetP.focus();
-		focussed = true;
-	}
-
-	if ( targetPP.innerText === targetPP.dataset.answer )
-	{
-		targetPP.style.backgroundColor = '#CCFF90';
-	}
-	else
-	{
-		targetPP.style.backgroundColor = '#FFCDD2';
-
-		if ( !focussed )
+		if ( targetP.innerText === targetP.dataset.answer )
 		{
-			targetPP.focus();
+			targetP.style.backgroundColor = '#CCFF90';
 		}
-	}
+		else
+		{
+			targetP.style.backgroundColor = '#FFCDD2';
+			targetP.focus();
+			focussed = true;
+		}
+
+		if ( targetPP.innerText === targetPP.dataset.answer )
+		{
+			targetPP.style.backgroundColor = '#CCFF90';
+		}
+		else
+		{
+			targetPP.style.backgroundColor = '#FFCDD2';
+
+			if ( !focussed )
+			{
+				targetPP.focus();
+			}
+		}
+	});
 }

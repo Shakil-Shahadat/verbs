@@ -24,7 +24,7 @@
 				<td data-answer="went" contenteditable></td>
 				<td data-answer="gone" contenteditable></td>
 				<td>
-					<button onclick="checkAnswer( this.parentElement.parentElement )">Check</button>
+					<button>Check</button>
 				</td>
 			</tr>
 		</table>
