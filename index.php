@@ -82,6 +82,15 @@
 				</td>
 			</tr>
 			<tr>
+				<td>008</td>
+				<td>Befall</td>
+				<td data-answer="befell" contenteditable></td>
+				<td data-answer="befallen" contenteditable></td>
+				<td>
+					<button>Check</button>
+				</td>
+			</tr>
+			<tr>
 				<td></td>
 				<td>Go</td>
 				<td data-answer="went" contenteditable></td>
