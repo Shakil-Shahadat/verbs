@@ -40,7 +40,7 @@
 				<td>003</td>
 				<td>Awake</td>
 				<td data-answer="awoke" contenteditable></td>
-				<td data-answer="awoked, awoken" contenteditable></td>
+				<td data-answer="awaked, awoken" contenteditable></td>
 				<td>
 					<button>Check</button>
 				</td>
