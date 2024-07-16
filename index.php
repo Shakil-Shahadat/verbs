@@ -19,6 +19,15 @@
 				<th>Check</th>
 			</tr>
 			<tr>
+				<td>001</td>
+				<td>Abide</td>
+				<td data-answer="abode, abided" contenteditable></td>
+				<td data-answer="abided" contenteditable></td>
+				<td>
+					<button>Check</button>
+				</td>
+			</tr>
+			<tr>
 				<td></td>
 				<td>Go</td>
 				<td data-answer="went" contenteditable></td>
