@@ -28,6 +28,15 @@
 				</td>
 			</tr>
 			<tr>
+				<td>002</td>
+				<td>Arise</td>
+				<td data-answer="arose" contenteditable></td>
+				<td data-answer="arisen" contenteditable></td>
+				<td>
+					<button>Check</button>
+				</td>
+			</tr>
+			<tr>
 				<td></td>
 				<td>Go</td>
 				<td data-answer="went" contenteditable></td>
