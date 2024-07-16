@@ -13,7 +13,7 @@
 		<table>
 			<tr>
 				<th>Serial</th>
-				<th>Verb</th>
+				<th>Present</th>
 				<th>Past Tense</th>
 				<th>Past Participle</th>
 				<th>Check</th>
