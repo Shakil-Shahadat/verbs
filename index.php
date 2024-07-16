@@ -55,6 +55,15 @@
 				</td>
 			</tr>
 			<tr>
+				<td>005</td>
+				<td>Bear</td>
+				<td data-answer="bore" contenteditable></td>
+				<td data-answer="borne" contenteditable></td>
+				<td>
+					<button>Check</button>
+				</td>
+			</tr>
+			<tr>
 				<td></td>
 				<td>Go</td>
 				<td data-answer="went" contenteditable></td>
