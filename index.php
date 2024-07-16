@@ -100,6 +100,15 @@
 				</td>
 			</tr>
 			<tr>
+				<td>010</td>
+				<td>Begin</td>
+				<td data-answer="began" contenteditable></td>
+				<td data-answer="begun" contenteditable></td>
+				<td>
+					<button>Check</button>
+				</td>
+			</tr>
+			<tr>
 				<td></td>
 				<td>Go</td>
 				<td data-answer="went" contenteditable></td>
