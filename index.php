@@ -73,6 +73,15 @@
 				</td>
 			</tr>
 			<tr>
+				<td>007</td>
+				<td>Become</td>
+				<td data-answer="became" contenteditable></td>
+				<td data-answer="become" contenteditable></td>
+				<td>
+					<button>Check</button>
+				</td>
+			</tr>
+			<tr>
 				<td></td>
 				<td>Go</td>
 				<td data-answer="went" contenteditable></td>
