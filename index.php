@@ -109,6 +109,15 @@
 				</td>
 			</tr>
 			<tr>
+				<td>011</td>
+				<td>Behold</td>
+				<td data-answer="beheld" contenteditable></td>
+				<td data-answer="beheld" contenteditable></td>
+				<td>
+					<button>Check</button>
+				</td>
+			</tr>
+			<tr>
 				<td></td>
 				<td>Go</td>
 				<td data-answer="went" contenteditable></td>
