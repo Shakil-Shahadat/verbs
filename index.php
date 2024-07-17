@@ -118,6 +118,15 @@
 				</td>
 			</tr>
 			<tr>
+				<td>012</td>
+				<td>Bend</td>
+				<td data-answer="bent" contenteditable></td>
+				<td data-answer="bent" contenteditable></td>
+				<td>
+					<button>Check</button>
+				</td>
+			</tr>
+			<tr>
 				<td></td>
 				<td>Go</td>
 				<td data-answer="went" contenteditable></td>
