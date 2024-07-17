@@ -127,6 +127,15 @@
 				</td>
 			</tr>
 			<tr>
+				<td>013</td>
+				<td>Bereave</td>
+				<td data-answer="bereaved, bereft" contenteditable></td>
+				<td data-answer="bereaved, bereft" contenteditable></td>
+				<td>
+					<button>Check</button>
+				</td>
+			</tr>
+			<tr>
 				<td></td>
 				<td>Go</td>
 				<td data-answer="went" contenteditable></td>
