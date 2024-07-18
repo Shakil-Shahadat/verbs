@@ -155,6 +155,15 @@
 			</tr>
 			<tr>
 				<td></td>
+				<td>Bet</td>
+				<td data-answer="bet, betted" contenteditable></td>
+				<td data-answer="bet, betted" contenteditable></td>
+				<td>
+					<button>Check</button>
+				</td>
+			</tr>
+			<tr>
+				<td></td>
 				<td>Go</td>
 				<td data-answer="went" contenteditable></td>
 				<td data-answer="gone" contenteditable></td>
