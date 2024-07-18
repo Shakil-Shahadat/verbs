@@ -164,6 +164,15 @@
 			</tr>
 			<tr>
 				<td></td>
+				<td>Betake</td>
+				<td data-answer="betook" contenteditable></td>
+				<td data-answer="betaken" contenteditable></td>
+				<td>
+					<button>Check</button>
+				</td>
+			</tr>
+			<tr>
+				<td></td>
 				<td>Go</td>
 				<td data-answer="went" contenteditable></td>
 				<td data-answer="gone" contenteditable></td>
