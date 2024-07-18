@@ -33,3 +33,9 @@ for ( let e of document.querySelector( 'table' ).querySelectorAll( 'button' ) )
 		}
 	});
 }
+
+// Automatically add numbers to serial columns
+for ( let i = 1; i < document.querySelector( 'table' ).querySelectorAll( 'tr' ).length; i++ )
+{
+	document.querySelector( 'table' ).querySelectorAll( 'tr' )[ i ].querySelector( 'td' ).innerText = i;
+}
