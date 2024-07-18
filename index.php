@@ -173,6 +173,15 @@
 			</tr>
 			<tr>
 				<td></td>
+				<td>Bethink</td>
+				<td data-answer="bethought" contenteditable></td>
+				<td data-answer="bethought" contenteditable></td>
+				<td>
+					<button>Check</button>
+				</td>
+			</tr>
+			<tr>
+				<td></td>
 				<td>Go</td>
 				<td data-answer="went" contenteditable></td>
 				<td data-answer="gone" contenteditable></td>
