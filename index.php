@@ -137,6 +137,15 @@
 			</tr>
 			<tr>
 				<td></td>
+				<td>Beseech</td>
+				<td data-answer="besought" contenteditable></td>
+				<td data-answer="besought" contenteditable></td>
+				<td>
+					<button>Check</button>
+				</td>
+			</tr>
+			<tr>
+				<td></td>
 				<td>Go</td>
 				<td data-answer="went" contenteditable></td>
 				<td data-answer="gone" contenteditable></td>
