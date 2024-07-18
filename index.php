@@ -182,6 +182,15 @@
 			</tr>
 			<tr>
 				<td></td>
+				<td>Bid</td>
+				<td data-answer="bade, bid" contenteditable></td>
+				<td data-answer="bidden, bid" contenteditable></td>
+				<td>
+					<button>Check</button>
+				</td>
+			</tr>
+			<tr>
+				<td></td>
 				<td>Go</td>
 				<td data-answer="went" contenteditable></td>
 				<td data-answer="gone" contenteditable></td>
