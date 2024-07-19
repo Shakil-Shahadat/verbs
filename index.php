@@ -425,6 +425,15 @@
 			</tr>
 			<tr>
 				<td></td>
+				<td>Dare</td>
+				<td data-answer="dared, durst" contenteditable></td>
+				<td data-answer="dared" contenteditable></td>
+				<td>
+					<button>Check</button>
+				</td>
+			</tr>
+			<tr>
+				<td></td>
 				<td>Go</td>
 				<td data-answer="went" contenteditable></td>
 				<td data-answer="gone" contenteditable></td>
