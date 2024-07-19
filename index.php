@@ -344,6 +344,15 @@
 			</tr>
 			<tr>
 				<td></td>
+				<td>Choose</td>
+				<td data-answer="chose" contenteditable></td>
+				<td data-answer="chosen" contenteditable></td>
+				<td>
+					<button>Check</button>
+				</td>
+			</tr>
+			<tr>
+				<td></td>
 				<td>Go</td>
 				<td data-answer="went" contenteditable></td>
 				<td data-answer="gone" contenteditable></td>
