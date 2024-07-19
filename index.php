@@ -362,6 +362,15 @@
 			</tr>
 			<tr>
 				<td></td>
+				<td>Cling</td>
+				<td data-answer="clung" contenteditable></td>
+				<td data-answer="clung" contenteditable></td>
+				<td>
+					<button>Check</button>
+				</td>
+			</tr>
+			<tr>
+				<td></td>
 				<td>Go</td>
 				<td data-answer="went" contenteditable></td>
 				<td data-answer="gone" contenteditable></td>
