@@ -236,6 +236,15 @@
 			</tr>
 			<tr>
 				<td></td>
+				<td>Blow</td>
+				<td data-answer="blew" contenteditable></td>
+				<td data-answer="blown" contenteditable></td>
+				<td>
+					<button>Check</button>
+				</td>
+			</tr>
+			<tr>
+				<td></td>
 				<td>Go</td>
 				<td data-answer="went" contenteditable></td>
 				<td data-answer="gone" contenteditable></td>
