@@ -990,6 +990,15 @@
 					<button>Check</button>
 				</td>
 			</tr>
+			<tr>
+				<td></td>
+				<td>Lie</td>
+				<td data-answer="lay" contenteditable></td>
+				<td data-answer="lain" contenteditable></td>
+				<td>
+					<button>Check</button>
+				</td>
+			</tr>
 		</table>
 
 	</div><!-- .container -->
