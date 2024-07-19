@@ -1143,6 +1143,15 @@
 					<button>Check</button>
 				</td>
 			</tr>
+			<tr>
+				<td></td>
+				<td>Outbid</td>
+				<td data-answer="outbid" contenteditable></td>
+				<td data-answer="outbid" contenteditable></td>
+				<td>
+					<button>Check</button>
+				</td>
+			</tr>
 		</table>
 
 	</div><!-- .container -->
