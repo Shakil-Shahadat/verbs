@@ -747,6 +747,15 @@
 					<button>Check</button>
 				</td>
 			</tr>
+			<tr>
+				<td></td>
+				<td>Grave</td>
+				<td data-answer="graved" contenteditable></td>
+				<td data-answer="graven, graved" contenteditable></td>
+				<td>
+					<button>Check</button>
+				</td>
+			</tr>
 		</table>
 
 	</div><!-- .container -->
