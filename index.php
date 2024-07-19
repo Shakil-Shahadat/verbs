@@ -560,6 +560,15 @@
 			</tr>
 			<tr>
 				<td></td>
+				<td>Find</td>
+				<td data-answer="found" contenteditable></td>
+				<td data-answer="found" contenteditable></td>
+				<td>
+					<button>Check</button>
+				</td>
+			</tr>
+			<tr>
+				<td></td>
 				<td>Go</td>
 				<td data-answer="went" contenteditable></td>
 				<td data-answer="gone" contenteditable></td>
