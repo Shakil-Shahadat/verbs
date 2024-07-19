@@ -1215,6 +1215,15 @@
 					<button>Check</button>
 				</td>
 			</tr>
+			<tr>
+				<td></td>
+				<td>Overcast</td>
+				<td data-answer="overcast" contenteditable></td>
+				<td data-answer="overcast" contenteditable></td>
+				<td>
+					<button>Check</button>
+				</td>
+			</tr>
 		</table>
 
 	</div><!-- .container -->
