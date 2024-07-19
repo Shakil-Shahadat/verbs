@@ -1305,6 +1305,15 @@
 					<button>Check</button>
 				</td>
 			</tr>
+			<tr>
+				<td></td>
+				<td>Oversee</td>
+				<td data-answer="oversaw" contenteditable></td>
+				<td data-answer="overseen" contenteditable></td>
+				<td>
+					<button>Check</button>
+				</td>
+			</tr>
 		</table>
 
 	</div><!-- .container -->
