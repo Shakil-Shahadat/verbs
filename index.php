@@ -695,6 +695,15 @@
 			</tr>
 			<tr>
 				<td></td>
+				<td>Gainsay</td>
+				<td data-answer="gainsaid" contenteditable></td>
+				<td data-answer="gainsaid" contenteditable></td>
+				<td>
+					<button>Check</button>
+				</td>
+			</tr>
+			<tr>
+				<td></td>
 				<td>Go</td>
 				<td data-answer="went" contenteditable></td>
 				<td data-answer="gone" contenteditable></td>
