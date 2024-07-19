@@ -488,6 +488,15 @@
 			</tr>
 			<tr>
 				<td></td>
+				<td>Drink</td>
+				<td data-answer="drank" contenteditable></td>
+				<td data-answer="drunk" contenteditable></td>
+				<td>
+					<button>Check</button>
+				</td>
+			</tr>
+			<tr>
+				<td></td>
 				<td>Go</td>
 				<td data-answer="went" contenteditable></td>
 				<td data-answer="gone" contenteditable></td>
