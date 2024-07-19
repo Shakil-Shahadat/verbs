@@ -452,6 +452,15 @@
 			</tr>
 			<tr>
 				<td></td>
+				<td>Dive</td>
+				<td data-answer="dived, dove" contenteditable></td>
+				<td data-answer="dived" contenteditable></td>
+				<td>
+					<button>Check</button>
+				</td>
+			</tr>
+			<tr>
+				<td></td>
 				<td>Go</td>
 				<td data-answer="went" contenteditable></td>
 				<td data-answer="gone" contenteditable></td>
