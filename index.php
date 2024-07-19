@@ -668,6 +668,15 @@
 			</tr>
 			<tr>
 				<td></td>
+				<td>Forsake</td>
+				<td data-answer="Forsook" contenteditable></td>
+				<td data-answer="forsaken" contenteditable></td>
+				<td>
+					<button>Check</button>
+				</td>
+			</tr>
+			<tr>
+				<td></td>
 				<td>Go</td>
 				<td data-answer="went" contenteditable></td>
 				<td data-answer="gone" contenteditable></td>
