@@ -1134,6 +1134,15 @@
 					<button>Check</button>
 				</td>
 			</tr>
+			<tr>
+				<td></td>
+				<td>Mow</td>
+				<td data-answer="mowed" contenteditable></td>
+				<td data-answer="mown, mowed" contenteditable></td>
+				<td>
+					<button>Check</button>
+				</td>
+			</tr>
 		</table>
 
 	</div><!-- .container -->
