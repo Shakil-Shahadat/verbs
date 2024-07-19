@@ -227,6 +227,15 @@
 			</tr>
 			<tr>
 				<td></td>
+				<td>Bless</td>
+				<td data-answer="blessed, blest" contenteditable></td>
+				<td data-answer="blessed, blest" contenteditable></td>
+				<td>
+					<button>Check</button>
+				</td>
+			</tr>
+			<tr>
+				<td></td>
 				<td>Go</td>
 				<td data-answer="went" contenteditable></td>
 				<td data-answer="gone" contenteditable></td>
