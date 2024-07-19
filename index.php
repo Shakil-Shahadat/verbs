@@ -1170,6 +1170,15 @@
 					<button>Check</button>
 				</td>
 			</tr>
+			<tr>
+				<td></td>
+				<td>Outgrow</td>
+				<td data-answer="outgrew" contenteditable></td>
+				<td data-answer="outgrown" contenteditable></td>
+				<td>
+					<button>Check</button>
+				</td>
+			</tr>
 		</table>
 
 	</div><!-- .container -->
