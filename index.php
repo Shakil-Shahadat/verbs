@@ -335,6 +335,15 @@
 			</tr>
 			<tr>
 				<td></td>
+				<td>Chide</td>
+				<td data-answer="chidded, chid" contenteditable></td>
+				<td data-answer="chidded, chidden" contenteditable></td>
+				<td>
+					<button>Check</button>
+				</td>
+			</tr>
+			<tr>
+				<td></td>
 				<td>Go</td>
 				<td data-answer="went" contenteditable></td>
 				<td data-answer="gone" contenteditable></td>
