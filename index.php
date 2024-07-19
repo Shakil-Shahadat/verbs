@@ -909,6 +909,15 @@
 					<button>Check</button>
 				</td>
 			</tr>
+			<tr>
+				<td></td>
+				<td>Lade</td>
+				<td data-answer="laded" contenteditable></td>
+				<td data-answer="laden" contenteditable></td>
+				<td>
+					<button>Check</button>
+				</td>
+			</tr>
 		</table>
 
 	</div><!-- .container -->
