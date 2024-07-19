@@ -713,6 +713,15 @@
 			</tr>
 			<tr>
 				<td></td>
+				<td>Gild</td>
+				<td data-answer="gilded, gilt" contenteditable></td>
+				<td data-answer="gilded" contenteditable></td>
+				<td>
+					<button>Check</button>
+				</td>
+			</tr>
+			<tr>
+				<td></td>
 				<td>Go</td>
 				<td data-answer="went" contenteditable></td>
 				<td data-answer="gone" contenteditable></td>
