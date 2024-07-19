@@ -1008,6 +1008,15 @@
 					<button>Check</button>
 				</td>
 			</tr>
+			<tr>
+				<td></td>
+				<td>Lose</td>
+				<td data-answer="lost" contenteditable></td>
+				<td data-answer="lost" contenteditable></td>
+				<td>
+					<button>Check</button>
+				</td>
+			</tr>
 		</table>
 
 	</div><!-- .container -->
