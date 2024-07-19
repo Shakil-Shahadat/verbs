@@ -1071,6 +1071,15 @@
 					<button>Check</button>
 				</td>
 			</tr>
+			<tr>
+				<td></td>
+				<td>Misgive</td>
+				<td data-answer="misgave" contenteditable></td>
+				<td data-answer="misgiven" contenteditable></td>
+				<td>
+					<button>Check</button>
+				</td>
+			</tr>
 		</table>
 
 	</div><!-- .container -->
