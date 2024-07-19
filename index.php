@@ -209,6 +209,15 @@
 			</tr>
 			<tr>
 				<td></td>
+				<td>Bleed</td>
+				<td data-answer="bled" contenteditable></td>
+				<td data-answer="bled" contenteditable></td>
+				<td>
+					<button>Check</button>
+				</td>
+			</tr>
+			<tr>
+				<td></td>
 				<td>Go</td>
 				<td data-answer="went" contenteditable></td>
 				<td data-answer="gone" contenteditable></td>
