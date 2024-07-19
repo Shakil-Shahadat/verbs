@@ -783,6 +783,15 @@
 					<button>Check</button>
 				</td>
 			</tr>
+			<tr>
+				<td></td>
+				<td>Hang</td>
+				<td data-answer="hung, hanged" contenteditable></td>
+				<td data-answer="hung, hanged" contenteditable></td>
+				<td>
+					<button>Check</button>
+				</td>
+			</tr>
 		</table>
 
 	</div><!-- .container -->
