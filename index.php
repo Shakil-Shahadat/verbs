@@ -308,6 +308,15 @@
 			</tr>
 			<tr>
 				<td></td>
+				<td>Buy</td>
+				<td data-answer="bought" contenteditable></td>
+				<td data-answer="bought" contenteditable></td>
+				<td>
+					<button>Check</button>
+				</td>
+			</tr>
+			<tr>
+				<td></td>
 				<td>Go</td>
 				<td data-answer="went" contenteditable></td>
 				<td data-answer="gone" contenteditable></td>
