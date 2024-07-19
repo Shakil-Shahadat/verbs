@@ -1080,6 +1080,15 @@
 					<button>Check</button>
 				</td>
 			</tr>
+			<tr>
+				<td></td>
+				<td>Mislay</td>
+				<td data-answer="mislaid" contenteditable></td>
+				<td data-answer="mislaid" contenteditable></td>
+				<td>
+					<button>Check</button>
+				</td>
+			</tr>
 		</table>
 
 	</div><!-- .container -->
