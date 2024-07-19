@@ -1161,6 +1161,15 @@
 					<button>Check</button>
 				</td>
 			</tr>
+			<tr>
+				<td></td>
+				<td>Outgo</td>
+				<td data-answer="outwent" contenteditable></td>
+				<td data-answer="outgone" contenteditable></td>
+				<td>
+					<button>Check</button>
+				</td>
+			</tr>
 		</table>
 
 	</div><!-- .container -->
