@@ -686,6 +686,15 @@
 			</tr>
 			<tr>
 				<td></td>
+				<td>Freeze</td>
+				<td data-answer="froze" contenteditable></td>
+				<td data-answer="frozen" contenteditable></td>
+				<td>
+					<button>Check</button>
+				</td>
+			</tr>
+			<tr>
+				<td></td>
 				<td>Go</td>
 				<td data-answer="went" contenteditable></td>
 				<td data-answer="gone" contenteditable></td>
