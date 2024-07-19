@@ -254,6 +254,15 @@
 			</tr>
 			<tr>
 				<td></td>
+				<td>Breed</td>
+				<td data-answer="bred" contenteditable></td>
+				<td data-answer="bred" contenteditable></td>
+				<td>
+					<button>Check</button>
+				</td>
+			</tr>
+			<tr>
+				<td></td>
 				<td>Go</td>
 				<td data-answer="went" contenteditable></td>
 				<td data-answer="gone" contenteditable></td>
