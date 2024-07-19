@@ -873,6 +873,15 @@
 					<button>Check</button>
 				</td>
 			</tr>
+			<tr>
+				<td></td>
+				<td>Keep</td>
+				<td data-answer="kept" contenteditable></td>
+				<td data-answer="kept" contenteditable></td>
+				<td>
+					<button>Check</button>
+				</td>
+			</tr>
 		</table>
 
 	</div><!-- .container -->
