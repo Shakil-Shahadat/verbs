@@ -704,6 +704,15 @@
 			</tr>
 			<tr>
 				<td></td>
+				<td>Get</td>
+				<td data-answer="got" contenteditable></td>
+				<td data-answer="got, gotten" contenteditable></td>
+				<td>
+					<button>Check</button>
+				</td>
+			</tr>
+			<tr>
+				<td></td>
 				<td>Go</td>
 				<td data-answer="went" contenteditable></td>
 				<td data-answer="gone" contenteditable></td>
