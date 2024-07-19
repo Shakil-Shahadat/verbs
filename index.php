@@ -731,6 +731,15 @@
 			</tr>
 			<tr>
 				<td></td>
+				<td>Give</td>
+				<td data-answer="gave" contenteditable></td>
+				<td data-answer="given" contenteditable></td>
+				<td>
+					<button>Check</button>
+				</td>
+			</tr>
+			<tr>
+				<td></td>
 				<td>Go</td>
 				<td data-answer="went" contenteditable></td>
 				<td data-answer="gone" contenteditable></td>
