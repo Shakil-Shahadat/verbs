@@ -632,6 +632,15 @@
 			</tr>
 			<tr>
 				<td></td>
+				<td>Foresee</td>
+				<td data-answer="foresaw" contenteditable></td>
+				<td data-answer="foreseen" contenteditable></td>
+				<td>
+					<button>Check</button>
+				</td>
+			</tr>
+			<tr>
+				<td></td>
 				<td>Go</td>
 				<td data-answer="went" contenteditable></td>
 				<td data-answer="gone" contenteditable></td>
