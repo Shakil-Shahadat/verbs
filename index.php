@@ -765,6 +765,15 @@
 					<button>Check</button>
 				</td>
 			</tr>
+			<tr>
+				<td></td>
+				<td>Grow</td>
+				<td data-answer="grew" contenteditable></td>
+				<td data-answer="grown" contenteditable></td>
+				<td>
+					<button>Check</button>
+				</td>
+			</tr>
 		</table>
 
 	</div><!-- .container -->
