@@ -1359,6 +1359,15 @@
 					<button>Check</button>
 				</td>
 			</tr>
+			<tr>
+				<td></td>
+				<td>Pay</td>
+				<td data-answer="paid" contenteditable></td>
+				<td data-answer="paid" contenteditable></td>
+				<td>
+					<button>Check</button>
+				</td>
+			</tr>
 		</table>
 
 	</div><!-- .container -->
