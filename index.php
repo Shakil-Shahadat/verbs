@@ -623,6 +623,15 @@
 			</tr>
 			<tr>
 				<td></td>
+				<td>Foreknow</td>
+				<td data-answer="foreknew" contenteditable></td>
+				<td data-answer="foreknown" contenteditable></td>
+				<td>
+					<button>Check</button>
+				</td>
+			</tr>
+			<tr>
+				<td></td>
 				<td>Go</td>
 				<td data-answer="went" contenteditable></td>
 				<td data-answer="gone" contenteditable></td>
