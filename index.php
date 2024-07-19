@@ -461,6 +461,15 @@
 			</tr>
 			<tr>
 				<td></td>
+				<td>Do</td>
+				<td data-answer="did" contenteditable></td>
+				<td data-answer="done" contenteditable></td>
+				<td>
+					<button>Check</button>
+				</td>
+			</tr>
+			<tr>
+				<td></td>
 				<td>Go</td>
 				<td data-answer="went" contenteditable></td>
 				<td data-answer="gone" contenteditable></td>
