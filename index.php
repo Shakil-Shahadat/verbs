@@ -999,6 +999,15 @@
 					<button>Check</button>
 				</td>
 			</tr>
+			<tr>
+				<td></td>
+				<td>Light</td>
+				<td data-answer="lit, lighted" contenteditable></td>
+				<td data-answer="lit, lighted" contenteditable></td>
+				<td>
+					<button>Check</button>
+				</td>
+			</tr>
 		</table>
 
 	</div><!-- .container -->
