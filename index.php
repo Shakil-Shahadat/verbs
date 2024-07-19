@@ -1026,6 +1026,15 @@
 					<button>Check</button>
 				</td>
 			</tr>
+			<tr>
+				<td></td>
+				<td>Mean</td>
+				<td data-answer="meant" contenteditable></td>
+				<td data-answer="meant" contenteditable></td>
+				<td>
+					<button>Check</button>
+				</td>
+			</tr>
 		</table>
 
 	</div><!-- .container -->
