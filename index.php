@@ -864,6 +864,15 @@
 					<button>Check</button>
 				</td>
 			</tr>
+			<tr>
+				<td></td>
+				<td>Inlay</td>
+				<td data-answer="inlaid" contenteditable></td>
+				<td data-answer="inlaid" contenteditable></td>
+				<td>
+					<button>Check</button>
+				</td>
+			</tr>
 		</table>
 
 	</div><!-- .container -->
