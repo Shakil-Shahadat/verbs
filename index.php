@@ -353,6 +353,15 @@
 			</tr>
 			<tr>
 				<td></td>
+				<td>Cleave</td>
+				<td data-answer="clove, cleft" contenteditable></td>
+				<td data-answer="cloven, cleft" contenteditable></td>
+				<td>
+					<button>Check</button>
+				</td>
+			</tr>
+			<tr>
+				<td></td>
 				<td>Go</td>
 				<td data-answer="went" contenteditable></td>
 				<td data-answer="gone" contenteditable></td>
