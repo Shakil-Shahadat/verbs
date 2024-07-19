@@ -551,6 +551,15 @@
 			</tr>
 			<tr>
 				<td></td>
+				<td>Fight</td>
+				<td data-answer="fought" contenteditable></td>
+				<td data-answer="fought" contenteditable></td>
+				<td>
+					<button>Check</button>
+				</td>
+			</tr>
+			<tr>
+				<td></td>
 				<td>Go</td>
 				<td data-answer="went" contenteditable></td>
 				<td data-answer="gone" contenteditable></td>
