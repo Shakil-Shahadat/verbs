@@ -1188,6 +1188,15 @@
 					<button>Check</button>
 				</td>
 			</tr>
+			<tr>
+				<td></td>
+				<td>Outrun</td>
+				<td data-answer="outran" contenteditable></td>
+				<td data-answer="outrun" contenteditable></td>
+				<td>
+					<button>Check</button>
+				</td>
+			</tr>
 		</table>
 
 	</div><!-- .container -->
