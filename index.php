@@ -650,6 +650,15 @@
 			</tr>
 			<tr>
 				<td></td>
+				<td>Forget</td>
+				<td data-answer="forgot" contenteditable></td>
+				<td data-answer="forgotten" contenteditable></td>
+				<td>
+					<button>Check</button>
+				</td>
+			</tr>
+			<tr>
+				<td></td>
 				<td>Go</td>
 				<td data-answer="went" contenteditable></td>
 				<td data-answer="gone" contenteditable></td>
