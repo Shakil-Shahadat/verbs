@@ -1341,6 +1341,15 @@
 					<button>Check</button>
 				</td>
 			</tr>
+			<tr>
+				<td></td>
+				<td>Overthrow</td>
+				<td data-answer="overthrew" contenteditable></td>
+				<td data-answer="overthrown" contenteditable></td>
+				<td>
+					<button>Check</button>
+				</td>
+			</tr>
 		</table>
 
 	</div><!-- .container -->
