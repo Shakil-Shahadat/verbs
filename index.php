@@ -819,6 +819,15 @@
 					<button>Check</button>
 				</td>
 			</tr>
+			<tr>
+				<td></td>
+				<td>Hew</td>
+				<td data-answer="hewed" contenteditable></td>
+				<td data-answer="hewed, hewn" contenteditable></td>
+				<td>
+					<button>Check</button>
+				</td>
+			</tr>
 		</table>
 
 	</div><!-- .container -->
