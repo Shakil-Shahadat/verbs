@@ -900,6 +900,15 @@
 					<button>Check</button>
 				</td>
 			</tr>
+			<tr>
+				<td></td>
+				<td>Know</td>
+				<td data-answer="knew" contenteditable></td>
+				<td data-answer="known" contenteditable></td>
+				<td>
+					<button>Check</button>
+				</td>
+			</tr>
 		</table>
 
 	</div><!-- .container -->
