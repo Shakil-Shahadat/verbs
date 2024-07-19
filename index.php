@@ -954,6 +954,15 @@
 					<button>Check</button>
 				</td>
 			</tr>
+			<tr>
+				<td></td>
+				<td>Learn</td>
+				<td data-answer="learnt, learned" contenteditable></td>
+				<td data-answer="learnt, learned" contenteditable></td>
+				<td>
+					<button>Check</button>
+				</td>
+			</tr>
 		</table>
 
 	</div><!-- .container -->
