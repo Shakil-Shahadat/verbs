@@ -1044,6 +1044,15 @@
 					<button>Check</button>
 				</td>
 			</tr>
+			<tr>
+				<td></td>
+				<td>Melt</td>
+				<td data-answer="melted" contenteditable></td>
+				<td data-answer="melted, molten" contenteditable></td>
+				<td>
+					<button>Check</button>
+				</td>
+			</tr>
 		</table>
 
 	</div><!-- .container -->
