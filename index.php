@@ -659,6 +659,15 @@
 			</tr>
 			<tr>
 				<td></td>
+				<td>Forgive</td>
+				<td data-answer="forgave" contenteditable></td>
+				<td data-answer="forgiven" contenteditable></td>
+				<td>
+					<button>Check</button>
+				</td>
+			</tr>
+			<tr>
+				<td></td>
 				<td>Go</td>
 				<td data-answer="went" contenteditable></td>
 				<td data-answer="gone" contenteditable></td>
