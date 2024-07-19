@@ -1260,6 +1260,15 @@
 					<button>Check</button>
 				</td>
 			</tr>
+			<tr>
+				<td></td>
+				<td>Overlay</td>
+				<td data-answer="overlaid" contenteditable></td>
+				<td data-answer="overlaid" contenteditable></td>
+				<td>
+					<button>Check</button>
+				</td>
+			</tr>
 		</table>
 
 	</div><!-- .container -->
