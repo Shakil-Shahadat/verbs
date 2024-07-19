@@ -1098,6 +1098,15 @@
 					<button>Check</button>
 				</td>
 			</tr>
+			<tr>
+				<td></td>
+				<td>Misspell</td>
+				<td data-answer="misspelt" contenteditable></td>
+				<td data-answer="misspelt" contenteditable></td>
+				<td>
+					<button>Check</button>
+				</td>
+			</tr>
 		</table>
 
 	</div><!-- .container -->
