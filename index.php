@@ -1197,6 +1197,15 @@
 					<button>Check</button>
 				</td>
 			</tr>
+			<tr>
+				<td></td>
+				<td>Outshine</td>
+				<td data-answer="outshone" contenteditable></td>
+				<td data-answer="outshone" contenteditable></td>
+				<td>
+					<button>Check</button>
+				</td>
+			</tr>
 		</table>
 
 	</div><!-- .container -->
