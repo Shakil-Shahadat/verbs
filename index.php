@@ -587,6 +587,15 @@
 			</tr>
 			<tr>
 				<td></td>
+				<td>Fly</td>
+				<td data-answer="flew" contenteditable></td>
+				<td data-answer="flown" contenteditable></td>
+				<td>
+					<button>Check</button>
+				</td>
+			</tr>
+			<tr>
+				<td></td>
 				<td>Go</td>
 				<td data-answer="went" contenteditable></td>
 				<td data-answer="gone" contenteditable></td>
