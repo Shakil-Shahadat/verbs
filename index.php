@@ -945,6 +945,15 @@
 					<button>Check</button>
 				</td>
 			</tr>
+			<tr>
+				<td></td>
+				<td>Leap</td>
+				<td data-answer="leapt, leaped" contenteditable></td>
+				<td data-answer="leapt, leaped" contenteditable></td>
+				<td>
+					<button>Check</button>
+				</td>
+			</tr>
 		</table>
 
 	</div><!-- .container -->
