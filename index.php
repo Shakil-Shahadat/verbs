@@ -245,6 +245,15 @@
 			</tr>
 			<tr>
 				<td></td>
+				<td>Break</td>
+				<td data-answer="broke" contenteditable></td>
+				<td data-answer="broken" contenteditable></td>
+				<td>
+					<button>Check</button>
+				</td>
+			</tr>
+			<tr>
+				<td></td>
 				<td>Go</td>
 				<td data-answer="went" contenteditable></td>
 				<td data-answer="gone" contenteditable></td>
