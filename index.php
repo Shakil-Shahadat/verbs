@@ -855,6 +855,15 @@
 					<button>Check</button>
 				</td>
 			</tr>
+			<tr>
+				<td></td>
+				<td>Hurt</td>
+				<td data-answer="hurt" contenteditable></td>
+				<td data-answer="hurt" contenteditable></td>
+				<td>
+					<button>Check</button>
+				</td>
+			</tr>
 		</table>
 
 	</div><!-- .container -->
