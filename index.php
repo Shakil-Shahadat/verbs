@@ -524,6 +524,15 @@
 			</tr>
 			<tr>
 				<td></td>
+				<td>Fall</td>
+				<td data-answer="fell" contenteditable></td>
+				<td data-answer="fallen" contenteditable></td>
+				<td>
+					<button>Check</button>
+				</td>
+			</tr>
+			<tr>
+				<td></td>
 				<td>Go</td>
 				<td data-answer="went" contenteditable></td>
 				<td data-answer="gone" contenteditable></td>
