@@ -1287,6 +1287,15 @@
 					<button>Check</button>
 				</td>
 			</tr>
+			<tr>
+				<td></td>
+				<td>Override</td>
+				<td data-answer="overrode" contenteditable></td>
+				<td data-answer="overridden" contenteditable></td>
+				<td>
+					<button>Check</button>
+				</td>
+			</tr>
 		</table>
 
 	</div><!-- .container -->
