@@ -828,6 +828,15 @@
 					<button>Check</button>
 				</td>
 			</tr>
+			<tr>
+				<td></td>
+				<td>Hide</td>
+				<td data-answer="hid" contenteditable></td>
+				<td data-answer="hidden" contenteditable></td>
+				<td>
+					<button>Check</button>
+				</td>
+			</tr>
 		</table>
 
 	</div><!-- .container -->
