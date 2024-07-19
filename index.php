@@ -1179,6 +1179,15 @@
 					<button>Check</button>
 				</td>
 			</tr>
+			<tr>
+				<td></td>
+				<td>Outride</td>
+				<td data-answer="outrode" contenteditable></td>
+				<td data-answer="outridden" contenteditable></td>
+				<td>
+					<button>Check</button>
+				</td>
+			</tr>
 		</table>
 
 	</div><!-- .container -->
