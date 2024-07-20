@@ -1737,6 +1737,15 @@
 					<button>Check</button>
 				</td>
 			</tr>
+			<tr>
+				<td></td>
+				<td>Sing</td>
+				<td data-answer="sang" contenteditable></td>
+				<td data-answer="sung" contenteditable></td>
+				<td>
+					<button>Check</button>
+				</td>
+			</tr>
 		</table>
 
 	</div><!-- .container -->
