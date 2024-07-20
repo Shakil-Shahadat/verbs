@@ -1962,6 +1962,15 @@
 					<button>Check</button>
 				</td>
 			</tr>
+			<tr>
+				<td></td>
+				<td>Steal</td>
+				<td data-answer="stole" contenteditable></td>
+				<td data-answer="stolen" contenteditable></td>
+				<td>
+					<button>Check</button>
+				</td>
+			</tr>
 		</table>
 
 	</div><!-- .container -->
