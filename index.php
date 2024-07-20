@@ -1467,6 +1467,15 @@
 					<button>Check</button>
 				</td>
 			</tr>
+			<tr>
+				<td></td>
+				<td>Repay</td>
+				<td data-answer="repaid" contenteditable></td>
+				<td data-answer="repaid" contenteditable></td>
+				<td>
+					<button>Check</button>
+				</td>
+			</tr>
 		</table>
 
 	</div><!-- .container -->
