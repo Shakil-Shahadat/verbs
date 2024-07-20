@@ -1872,6 +1872,15 @@
 					<button>Check</button>
 				</td>
 			</tr>
+			<tr>
+				<td></td>
+				<td>Spend</td>
+				<td data-answer="spent" contenteditable></td>
+				<td data-answer="spent" contenteditable></td>
+				<td>
+					<button>Check</button>
+				</td>
+			</tr>
 		</table>
 
 	</div><!-- .container -->
