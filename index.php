@@ -2088,6 +2088,15 @@
 					<button>Check</button>
 				</td>
 			</tr>
+			<tr>
+				<td></td>
+				<td>Take</td>
+				<td data-answer="took" contenteditable></td>
+				<td data-answer="taken" contenteditable></td>
+				<td>
+					<button>Check</button>
+				</td>
+			</tr>
 		</table>
 
 	</div><!-- .container -->
