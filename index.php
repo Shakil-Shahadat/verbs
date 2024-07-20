@@ -2259,6 +2259,15 @@
 					<button>Check</button>
 				</td>
 			</tr>
+			<tr>
+				<td></td>
+				<td>Wear</td>
+				<td data-answer="wore" contenteditable></td>
+				<td data-answer="worn" contenteditable></td>
+				<td>
+					<button>Check</button>
+				</td>
+			</tr>
 		</table>
 
 	</div><!-- .container -->
