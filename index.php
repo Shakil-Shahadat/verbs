@@ -1593,6 +1593,15 @@
 					<button>Check</button>
 				</td>
 			</tr>
+			<tr>
+				<td></td>
+				<td>Seek</td>
+				<td data-answer="sought" contenteditable></td>
+				<td data-answer="sought" contenteditable></td>
+				<td>
+					<button>Check</button>
+				</td>
+			</tr>
 		</table>
 
 	</div><!-- .container -->
