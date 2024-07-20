@@ -2097,6 +2097,15 @@
 					<button>Check</button>
 				</td>
 			</tr>
+			<tr>
+				<td></td>
+				<td>Teach</td>
+				<td data-answer="taught" contenteditable></td>
+				<td data-answer="taught" contenteditable></td>
+				<td>
+					<button>Check</button>
+				</td>
+			</tr>
 		</table>
 
 	</div><!-- .container -->
