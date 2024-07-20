@@ -1620,6 +1620,15 @@
 					<button>Check</button>
 				</td>
 			</tr>
+			<tr>
+				<td></td>
+				<td>Set</td>
+				<td data-answer="set" contenteditable></td>
+				<td data-answer="set" contenteditable></td>
+				<td>
+					<button>Check</button>
+				</td>
+			</tr>
 		</table>
 
 	</div><!-- .container -->
