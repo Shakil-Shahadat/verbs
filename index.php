@@ -2124,6 +2124,15 @@
 					<button>Check</button>
 				</td>
 			</tr>
+			<tr>
+				<td></td>
+				<td>Think</td>
+				<td data-answer="thought" contenteditable></td>
+				<td data-answer="thought" contenteditable></td>
+				<td>
+					<button>Check</button>
+				</td>
+			</tr>
 		</table>
 
 	</div><!-- .container -->
