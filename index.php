@@ -1818,6 +1818,15 @@
 					<button>Check</button>
 				</td>
 			</tr>
+			<tr>
+				<td></td>
+				<td>Smell</td>
+				<td data-answer="smelt, smelled" contenteditable></td>
+				<td data-answer="smelt, smelled" contenteditable></td>
+				<td>
+					<button>Check</button>
+				</td>
+			</tr>
 		</table>
 
 	</div><!-- .container -->
