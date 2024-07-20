@@ -1530,6 +1530,15 @@
 					<button>Check</button>
 				</td>
 			</tr>
+			<tr>
+				<td></td>
+				<td>Ring</td>
+				<td data-answer="rang" contenteditable></td>
+				<td data-answer="rung" contenteditable></td>
+				<td>
+					<button>Check</button>
+				</td>
+			</tr>
 		</table>
 
 	</div><!-- .container -->
