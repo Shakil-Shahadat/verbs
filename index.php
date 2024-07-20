@@ -2007,6 +2007,15 @@
 					<button>Check</button>
 				</td>
 			</tr>
+			<tr>
+				<td></td>
+				<td>Stride</td>
+				<td data-answer="strode" contenteditable></td>
+				<td data-answer="stridden" contenteditable></td>
+				<td>
+					<button>Check</button>
+				</td>
+			</tr>
 		</table>
 
 	</div><!-- .container -->
