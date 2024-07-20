@@ -2250,6 +2250,15 @@
 					<button>Check</button>
 				</td>
 			</tr>
+			<tr>
+				<td></td>
+				<td>Waylay</td>
+				<td data-answer="waylaid" contenteditable></td>
+				<td data-answer="waylaid" contenteditable></td>
+				<td>
+					<button>Check</button>
+				</td>
+			</tr>
 		</table>
 
 	</div><!-- .container -->
