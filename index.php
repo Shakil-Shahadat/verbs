@@ -2241,6 +2241,15 @@
 					<button>Check</button>
 				</td>
 			</tr>
+			<tr>
+				<td></td>
+				<td>Wake</td>
+				<td data-answer="woke, waked" contenteditable></td>
+				<td data-answer="woken, waked" contenteditable></td>
+				<td>
+					<button>Check</button>
+				</td>
+			</tr>
 		</table>
 
 	</div><!-- .container -->
