@@ -2160,6 +2160,15 @@
 					<button>Check</button>
 				</td>
 			</tr>
+			<tr>
+				<td></td>
+				<td>Tread</td>
+				<td data-answer="trod" contenteditable></td>
+				<td data-answer="trodden, trod" contenteditable></td>
+				<td>
+					<button>Check</button>
+				</td>
+			</tr>
 		</table>
 
 	</div><!-- .container -->
