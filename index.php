@@ -1809,6 +1809,15 @@
 					<button>Check</button>
 				</td>
 			</tr>
+			<tr>
+				<td></td>
+				<td>Slit</td>
+				<td data-answer="slit" contenteditable></td>
+				<td data-answer="slit" contenteditable></td>
+				<td>
+					<button>Check</button>
+				</td>
+			</tr>
 		</table>
 
 	</div><!-- .container -->
