@@ -1953,6 +1953,15 @@
 					<button>Check</button>
 				</td>
 			</tr>
+			<tr>
+				<td></td>
+				<td>Stave</td>
+				<td data-answer="staved, stove" contenteditable></td>
+				<td data-answer="staved, stove" contenteditable></td>
+				<td>
+					<button>Check</button>
+				</td>
+			</tr>
 		</table>
 
 	</div><!-- .container -->
