@@ -2169,6 +2169,15 @@
 					<button>Check</button>
 				</td>
 			</tr>
+			<tr>
+				<td></td>
+				<td>Unbend</td>
+				<td data-answer="unbent" contenteditable></td>
+				<td data-answer="unbent" contenteditable></td>
+				<td>
+					<button>Check</button>
+				</td>
+			</tr>
 		</table>
 
 	</div><!-- .container -->
