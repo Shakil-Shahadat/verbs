@@ -1899,6 +1899,15 @@
 					<button>Check</button>
 				</td>
 			</tr>
+			<tr>
+				<td></td>
+				<td>Spit</td>
+				<td data-answer="spat" contenteditable></td>
+				<td data-answer="spat" contenteditable></td>
+				<td>
+					<button>Check</button>
+				</td>
+			</tr>
 		</table>
 
 	</div><!-- .container -->
