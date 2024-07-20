@@ -1485,6 +1485,15 @@
 					<button>Check</button>
 				</td>
 			</tr>
+			<tr>
+				<td></td>
+				<td>Reset</td>
+				<td data-answer="reset" contenteditable></td>
+				<td data-answer="reset" contenteditable></td>
+				<td>
+					<button>Check</button>
+				</td>
+			</tr>
 		</table>
 
 	</div><!-- .container -->
