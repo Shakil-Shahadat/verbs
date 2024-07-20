@@ -1449,6 +1449,15 @@
 					<button>Check</button>
 				</td>
 			</tr>
+			<tr>
+				<td></td>
+				<td>Remake</td>
+				<td data-answer="remade" contenteditable></td>
+				<td data-answer="remade" contenteditable></td>
+				<td>
+					<button>Check</button>
+				</td>
+			</tr>
 		</table>
 
 	</div><!-- .container -->
