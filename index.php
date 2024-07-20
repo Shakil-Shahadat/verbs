@@ -1845,6 +1845,15 @@
 					<button>Check</button>
 				</td>
 			</tr>
+			<tr>
+				<td></td>
+				<td>Speak</td>
+				<td data-answer="spoke" contenteditable></td>
+				<td data-answer="spoken" contenteditable></td>
+				<td>
+					<button>Check</button>
+				</td>
+			</tr>
 		</table>
 
 	</div><!-- .container -->
