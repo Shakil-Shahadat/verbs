@@ -1863,6 +1863,15 @@
 					<button>Check</button>
 				</td>
 			</tr>
+			<tr>
+				<td></td>
+				<td>Spell</td>
+				<td data-answer="spelt, spelled" contenteditable></td>
+				<td data-answer="spelt, spelled" contenteditable></td>
+				<td>
+					<button>Check</button>
+				</td>
+			</tr>
 		</table>
 
 	</div><!-- .container -->
