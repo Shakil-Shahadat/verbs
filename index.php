@@ -1440,6 +1440,15 @@
 					<button>Check</button>
 				</td>
 			</tr>
+			<tr>
+				<td></td>
+				<td>Relay</td>
+				<td data-answer="relaid" contenteditable></td>
+				<td data-answer="relaid" contenteditable></td>
+				<td>
+					<button>Check</button>
+				</td>
+			</tr>
 		</table>
 
 	</div><!-- .container -->
