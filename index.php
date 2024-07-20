@@ -2178,6 +2178,15 @@
 					<button>Check</button>
 				</td>
 			</tr>
+			<tr>
+				<td></td>
+				<td>Unbind</td>
+				<td data-answer="unbound" contenteditable></td>
+				<td data-answer="unbound" contenteditable></td>
+				<td>
+					<button>Check</button>
+				</td>
+			</tr>
 		</table>
 
 	</div><!-- .container -->
