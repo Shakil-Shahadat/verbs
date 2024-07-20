@@ -1980,6 +1980,15 @@
 					<button>Check</button>
 				</td>
 			</tr>
+			<tr>
+				<td></td>
+				<td>Sting</td>
+				<td data-answer="stung" contenteditable></td>
+				<td data-answer="stung" contenteditable></td>
+				<td>
+					<button>Check</button>
+				</td>
+			</tr>
 		</table>
 
 	</div><!-- .container -->
