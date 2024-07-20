@@ -1431,6 +1431,15 @@
 					<button>Check</button>
 				</td>
 			</tr>
+			<tr>
+				<td></td>
+				<td>Redo</td>
+				<td data-answer="redid" contenteditable></td>
+				<td data-answer="redone" contenteditable></td>
+				<td>
+					<button>Check</button>
+				</td>
+			</tr>
 		</table>
 
 	</div><!-- .container -->
