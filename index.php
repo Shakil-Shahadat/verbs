@@ -1503,6 +1503,15 @@
 					<button>Check</button>
 				</td>
 			</tr>
+			<tr>
+				<td></td>
+				<td>Rewrite</td>
+				<td data-answer="rewrote" contenteditable></td>
+				<td data-answer="rewritten" contenteditable></td>
+				<td>
+					<button>Check</button>
+				</td>
+			</tr>
 		</table>
 
 	</div><!-- .container -->
