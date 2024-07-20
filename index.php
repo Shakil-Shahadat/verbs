@@ -2016,6 +2016,15 @@
 					<button>Check</button>
 				</td>
 			</tr>
+			<tr>
+				<td></td>
+				<td>Strike</td>
+				<td data-answer="struck" contenteditable></td>
+				<td data-answer="struck, stricken" contenteditable></td>
+				<td>
+					<button>Check</button>
+				</td>
+			</tr>
 		</table>
 
 	</div><!-- .container -->
