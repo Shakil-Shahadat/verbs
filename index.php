@@ -1782,6 +1782,15 @@
 					<button>Check</button>
 				</td>
 			</tr>
+			<tr>
+				<td></td>
+				<td>Slide</td>
+				<td data-answer="slid" contenteditable></td>
+				<td data-answer="slid" contenteditable></td>
+				<td>
+					<button>Check</button>
+				</td>
+			</tr>
 		</table>
 
 	</div><!-- .container -->
