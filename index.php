@@ -2079,6 +2079,15 @@
 					<button>Check</button>
 				</td>
 			</tr>
+			<tr>
+				<td></td>
+				<td>Swing</td>
+				<td data-answer="swung" contenteditable></td>
+				<td data-answer="swung" contenteditable></td>
+				<td>
+					<button>Check</button>
+				</td>
+			</tr>
 		</table>
 
 	</div><!-- .container -->
