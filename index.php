@@ -1728,6 +1728,15 @@
 					<button>Check</button>
 				</td>
 			</tr>
+			<tr>
+				<td></td>
+				<td>Shut</td>
+				<td data-answer="shut" contenteditable></td>
+				<td data-answer="shut" contenteditable></td>
+				<td>
+					<button>Check</button>
+				</td>
+			</tr>
 		</table>
 
 	</div><!-- .container -->
