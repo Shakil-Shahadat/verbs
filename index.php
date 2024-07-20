@@ -2223,6 +2223,15 @@
 					<button>Check</button>
 				</td>
 			</tr>
+			<tr>
+				<td></td>
+				<td>Undo</td>
+				<td data-answer="undid" contenteditable></td>
+				<td data-answer="undone" contenteditable></td>
+				<td>
+					<button>Check</button>
+				</td>
+			</tr>
 		</table>
 
 	</div><!-- .container -->
