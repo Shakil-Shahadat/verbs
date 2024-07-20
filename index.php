@@ -2205,6 +2205,15 @@
 					<button>Check</button>
 				</td>
 			</tr>
+			<tr>
+				<td></td>
+				<td>Understand</td>
+				<td data-answer="understood" contenteditable></td>
+				<td data-answer="understood" contenteditable></td>
+				<td>
+					<button>Check</button>
+				</td>
+			</tr>
 		</table>
 
 	</div><!-- .container -->
