@@ -2070,6 +2070,15 @@
 					<button>Check</button>
 				</td>
 			</tr>
+			<tr>
+				<td></td>
+				<td>Swim</td>
+				<td data-answer="swam" contenteditable></td>
+				<td data-answer="swum" contenteditable></td>
+				<td>
+					<button>Check</button>
+				</td>
+			</tr>
 		</table>
 
 	</div><!-- .container -->
