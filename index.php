@@ -1827,6 +1827,15 @@
 					<button>Check</button>
 				</td>
 			</tr>
+			<tr>
+				<td></td>
+				<td>Smite</td>
+				<td data-answer="smote" contenteditable></td>
+				<td data-answer="smitten" contenteditable></td>
+				<td>
+					<button>Check</button>
+				</td>
+			</tr>
 		</table>
 
 	</div><!-- .container -->
