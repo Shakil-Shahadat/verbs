@@ -2268,6 +2268,15 @@
 					<button>Check</button>
 				</td>
 			</tr>
+			<tr>
+				<td></td>
+				<td>Weave</td>
+				<td data-answer="wove" contenteditable></td>
+				<td data-answer="woven" contenteditable></td>
+				<td>
+					<button>Check</button>
+				</td>
+			</tr>
 		</table>
 
 	</div><!-- .container -->
