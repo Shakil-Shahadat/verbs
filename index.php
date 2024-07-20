@@ -1998,6 +1998,15 @@
 					<button>Check</button>
 				</td>
 			</tr>
+			<tr>
+				<td></td>
+				<td>Strew</td>
+				<td data-answer="strewed" contenteditable></td>
+				<td data-answer="strewn, strewed" contenteditable></td>
+				<td>
+					<button>Check</button>
+				</td>
+			</tr>
 		</table>
 
 	</div><!-- .container -->
