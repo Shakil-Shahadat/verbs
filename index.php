@@ -1548,6 +1548,15 @@
 					<button>Check</button>
 				</td>
 			</tr>
+			<tr>
+				<td></td>
+				<td>Rive</td>
+				<td data-answer="rived" contenteditable></td>
+				<td data-answer="riven, rived" contenteditable></td>
+				<td>
+					<button>Check</button>
+				</td>
+			</tr>
 		</table>
 
 	</div><!-- .container -->
