@@ -1611,6 +1611,15 @@
 					<button>Check</button>
 				</td>
 			</tr>
+			<tr>
+				<td></td>
+				<td>Send</td>
+				<td data-answer="sent" contenteditable></td>
+				<td data-answer="sent" contenteditable></td>
+				<td>
+					<button>Check</button>
+				</td>
+			</tr>
 		</table>
 
 	</div><!-- .container -->
