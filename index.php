@@ -2106,6 +2106,15 @@
 					<button>Check</button>
 				</td>
 			</tr>
+			<tr>
+				<td></td>
+				<td>Tear</td>
+				<td data-answer="tore" contenteditable></td>
+				<td data-answer="torn" contenteditable></td>
+				<td>
+					<button>Check</button>
+				</td>
+			</tr>
 		</table>
 
 	</div><!-- .container -->
