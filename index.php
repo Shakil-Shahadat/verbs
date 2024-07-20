@@ -1710,6 +1710,15 @@
 					<button>Check</button>
 				</td>
 			</tr>
+			<tr>
+				<td></td>
+				<td>Shrink</td>
+				<td data-answer="shrank, shrunk" contenteditable></td>
+				<td data-answer="shrunk, shrunken" contenteditable></td>
+				<td>
+					<button>Check</button>
+				</td>
+			</tr>
 		</table>
 
 	</div><!-- .container -->
