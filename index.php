@@ -2295,6 +2295,15 @@
 					<button>Check</button>
 				</td>
 			</tr>
+			<tr>
+				<td></td>
+				<td>Wind</td>
+				<td data-answer="wound" contenteditable></td>
+				<td data-answer="wound" contenteditable></td>
+				<td>
+					<button>Check</button>
+				</td>
+			</tr>
 		</table>
 
 	</div><!-- .container -->
