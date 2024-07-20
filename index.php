@@ -1881,6 +1881,15 @@
 					<button>Check</button>
 				</td>
 			</tr>
+			<tr>
+				<td></td>
+				<td>Spill</td>
+				<td data-answer="spilt, spilled" contenteditable></td>
+				<td data-answer="spilt, spilled" contenteditable></td>
+				<td>
+					<button>Check</button>
+				</td>
+			</tr>
 		</table>
 
 	</div><!-- .container -->
