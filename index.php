@@ -2232,6 +2232,15 @@
 					<button>Check</button>
 				</td>
 			</tr>
+			<tr>
+				<td></td>
+				<td>Upset</td>
+				<td data-answer="upset" contenteditable></td>
+				<td data-answer="upset" contenteditable></td>
+				<td>
+					<button>Check</button>
+				</td>
+			</tr>
 		</table>
 
 	</div><!-- .container -->
