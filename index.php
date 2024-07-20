@@ -1413,6 +1413,15 @@
 					<button>Check</button>
 				</td>
 			</tr>
+			<tr>
+				<td></td>
+				<td>Rebuild</td>
+				<td data-answer="rebuilt" contenteditable></td>
+				<td data-answer="rebuilt" contenteditable></td>
+				<td>
+					<button>Check</button>
+				</td>
+			</tr>
 		</table>
 
 	</div><!-- .container -->
