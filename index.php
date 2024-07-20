@@ -2061,6 +2061,15 @@
 					<button>Check</button>
 				</td>
 			</tr>
+			<tr>
+				<td></td>
+				<td>Swell</td>
+				<td data-answer="swelled" contenteditable></td>
+				<td data-answer="swollen, swelled" contenteditable></td>
+				<td>
+					<button>Check</button>
+				</td>
+			</tr>
 		</table>
 
 	</div><!-- .container -->
