@@ -2025,6 +2025,15 @@
 					<button>Check</button>
 				</td>
 			</tr>
+			<tr>
+				<td></td>
+				<td>String</td>
+				<td data-answer="strung" contenteditable></td>
+				<td data-answer="strung" contenteditable></td>
+				<td>
+					<button>Check</button>
+				</td>
+			</tr>
 		</table>
 
 	</div><!-- .container -->
