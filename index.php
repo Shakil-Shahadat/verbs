@@ -2340,6 +2340,15 @@
 					<button>Check</button>
 				</td>
 			</tr>
+			<tr>
+				<td></td>
+				<td>Wring</td>
+				<td data-answer="wrung" contenteditable></td>
+				<td data-answer="wrung" contenteditable></td>
+				<td>
+					<button>Check</button>
+				</td>
+			</tr>
 		</table>
 
 	</div><!-- .container -->
