@@ -1629,6 +1629,15 @@
 					<button>Check</button>
 				</td>
 			</tr>
+			<tr>
+				<td></td>
+				<td>Sew</td>
+				<td data-answer="sewed" contenteditable></td>
+				<td data-answer="sewn, sewed" contenteditable></td>
+				<td>
+					<button>Check</button>
+				</td>
+			</tr>
 		</table>
 
 	</div><!-- .container -->
