@@ -2034,6 +2034,15 @@
 					<button>Check</button>
 				</td>
 			</tr>
+			<tr>
+				<td></td>
+				<td>Strive</td>
+				<td data-answer="strove" contenteditable></td>
+				<td data-answer="striven" contenteditable></td>
+				<td>
+					<button>Check</button>
+				</td>
+			</tr>
 		</table>
 
 	</div><!-- .container -->
