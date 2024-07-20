@@ -1890,6 +1890,15 @@
 					<button>Check</button>
 				</td>
 			</tr>
+			<tr>
+				<td></td>
+				<td>Spin</td>
+				<td data-answer="spun, span" contenteditable></td>
+				<td data-answer="spun" contenteditable></td>
+				<td>
+					<button>Check</button>
+				</td>
+			</tr>
 		</table>
 
 	</div><!-- .container -->
