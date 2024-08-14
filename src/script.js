@@ -34,6 +34,18 @@ for ( let e of document.querySelectorAll( '.checkBtn' ) )
 	});
 }
 
+function showAnswer( that )
+{
+	let targetP = that.parentElement.parentElement.querySelectorAll( 'td' )[ 2 ];
+	let targetPP = that.parentElement.parentElement.querySelectorAll( 'td' )[ 3 ];
+
+	targetP.innerText = targetP.dataset.answer;
+	targetP.style.backgroundColor = 'LightCyan';
+
+	targetPP.innerText = targetPP.dataset.answer;
+	targetPP.style.backgroundColor = 'LightCyan';
+}
+
 // Automatically add numbers to serial columns
 for ( let i = 1; i < document.querySelector( 'table' ).querySelectorAll( 'tr' ).length; i++ )
 {
