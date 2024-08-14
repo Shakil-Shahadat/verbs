@@ -1,6 +1,6 @@
 'use strict';
 
-for ( let e of document.querySelector( 'table' ).querySelectorAll( 'button' ) )
+for ( let e of document.querySelectorAll( '.checkBtn' ) )
 {
 	e.addEventListener( 'click', function(){
 		let focussed = false;
