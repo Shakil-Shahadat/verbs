@@ -669,7 +669,7 @@
 			<tr>
 				<td></td>
 				<td>Forsake</td>
-				<td data-answer="Forsook" contenteditable></td>
+				<td data-answer="forsook" contenteditable></td>
 				<td data-answer="forsaken" contenteditable></td>
 				<td>
 					<button>Check</button>
