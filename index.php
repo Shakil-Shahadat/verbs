@@ -24,7 +24,7 @@
 				<td data-answer="abode, abided" contenteditable></td>
 				<td data-answer="abided" contenteditable></td>
 				<td>
-					<button>Check</button>
+					<button class="checkBtn">Check</button>
 				</td>
 			</tr>
 			<tr>
@@ -33,7 +33,7 @@
 				<td data-answer="arose" contenteditable></td>
 				<td data-answer="arisen" contenteditable></td>
 				<td>
-					<button>Check</button>
+					<button class="checkBtn">Check</button>
 				</td>
 			</tr>
 			<tr>
@@ -42,7 +42,7 @@
 				<td data-answer="awoke" contenteditable></td>
 				<td data-answer="awaked, awoken" contenteditable></td>
 				<td>
-					<button>Check</button>
+					<button class="checkBtn">Check</button>
 				</td>
 			</tr>
 			<tr>
@@ -51,7 +51,7 @@
 				<td data-answer="was" contenteditable></td>
 				<td data-answer="been" contenteditable></td>
 				<td>
-					<button>Check</button>
+					<button class="checkBtn">Check</button>
 				</td>
 			</tr>
 			<tr>
@@ -60,7 +60,7 @@
 				<td data-answer="bore" contenteditable></td>
 				<td data-answer="borne" contenteditable></td>
 				<td>
-					<button>Check</button>
+					<button class="checkBtn">Check</button>
 				</td>
 			</tr>
 			<tr>
@@ -69,7 +69,7 @@
 				<td data-answer="beat" contenteditable></td>
 				<td data-answer="beaten" contenteditable></td>
 				<td>
-					<button>Check</button>
+					<button class="checkBtn">Check</button>
 				</td>
 			</tr>
 			<tr>
@@ -78,7 +78,7 @@
 				<td data-answer="became" contenteditable></td>
 				<td data-answer="become" contenteditable></td>
 				<td>
-					<button>Check</button>
+					<button class="checkBtn">Check</button>
 				</td>
 			</tr>
 			<tr>
@@ -87,7 +87,7 @@
 				<td data-answer="befell" contenteditable></td>
 				<td data-answer="befallen" contenteditable></td>
 				<td>
-					<button>Check</button>
+					<button class="checkBtn">Check</button>
 				</td>
 			</tr>
 			<tr>
@@ -96,7 +96,7 @@
 				<td data-answer="begot" contenteditable></td>
 				<td data-answer="begotten" contenteditable></td>
 				<td>
-					<button>Check</button>
+					<button class="checkBtn">Check</button>
 				</td>
 			</tr>
 			<tr>
@@ -105,7 +105,7 @@
 				<td data-answer="began" contenteditable></td>
 				<td data-answer="begun" contenteditable></td>
 				<td>
-					<button>Check</button>
+					<button class="checkBtn">Check</button>
 				</td>
 			</tr>
 			<tr>
@@ -114,7 +114,7 @@
 				<td data-answer="beheld" contenteditable></td>
 				<td data-answer="beheld" contenteditable></td>
 				<td>
-					<button>Check</button>
+					<button class="checkBtn">Check</button>
 				</td>
 			</tr>
 			<tr>
@@ -123,7 +123,7 @@
 				<td data-answer="bent" contenteditable></td>
 				<td data-answer="bent" contenteditable></td>
 				<td>
-					<button>Check</button>
+					<button class="checkBtn">Check</button>
 				</td>
 			</tr>
 			<tr>
@@ -132,7 +132,7 @@
 				<td data-answer="bereaved, bereft" contenteditable></td>
 				<td data-answer="bereaved, bereft" contenteditable></td>
 				<td>
-					<button>Check</button>
+					<button class="checkBtn">Check</button>
 				</td>
 			</tr>
 			<tr>
@@ -141,7 +141,7 @@
 				<td data-answer="besought" contenteditable></td>
 				<td data-answer="besought" contenteditable></td>
 				<td>
-					<button>Check</button>
+					<button class="checkBtn">Check</button>
 				</td>
 			</tr>
 			<tr>
@@ -150,7 +150,7 @@
 				<td data-answer="beset" contenteditable></td>
 				<td data-answer="beset" contenteditable></td>
 				<td>
-					<button>Check</button>
+					<button class="checkBtn">Check</button>
 				</td>
 			</tr>
 			<tr>
@@ -159,7 +159,7 @@
 				<td data-answer="bet, betted" contenteditable></td>
 				<td data-answer="bet, betted" contenteditable></td>
 				<td>
-					<button>Check</button>
+					<button class="checkBtn">Check</button>
 				</td>
 			</tr>
 			<tr>
@@ -168,7 +168,7 @@
 				<td data-answer="betook" contenteditable></td>
 				<td data-answer="betaken" contenteditable></td>
 				<td>
-					<button>Check</button>
+					<button class="checkBtn">Check</button>
 				</td>
 			</tr>
 			<tr>
@@ -177,7 +177,7 @@
 				<td data-answer="bethought" contenteditable></td>
 				<td data-answer="bethought" contenteditable></td>
 				<td>
-					<button>Check</button>
+					<button class="checkBtn">Check</button>
 				</td>
 			</tr>
 			<tr>
@@ -186,7 +186,7 @@
 				<td data-answer="bade, bid" contenteditable></td>
 				<td data-answer="bidden, bid" contenteditable></td>
 				<td>
-					<button>Check</button>
+					<button class="checkBtn">Check</button>
 				</td>
 			</tr>
 			<tr>
@@ -195,7 +195,7 @@
 				<td data-answer="bound" contenteditable></td>
 				<td data-answer="bound" contenteditable></td>
 				<td>
-					<button>Check</button>
+					<button class="checkBtn">Check</button>
 				</td>
 			</tr>
 			<tr>
@@ -204,7 +204,7 @@
 				<td data-answer="bit" contenteditable></td>
 				<td data-answer="bitten, bit" contenteditable></td>
 				<td>
-					<button>Check</button>
+					<button class="checkBtn">Check</button>
 				</td>
 			</tr>
 			<tr>
@@ -213,7 +213,7 @@
 				<td data-answer="bled" contenteditable></td>
 				<td data-answer="bled" contenteditable></td>
 				<td>
-					<button>Check</button>
+					<button class="checkBtn">Check</button>
 				</td>
 			</tr>
 			<tr>
@@ -222,7 +222,7 @@
 				<td data-answer="blended, blend" contenteditable></td>
 				<td data-answer="blended, blend" contenteditable></td>
 				<td>
-					<button>Check</button>
+					<button class="checkBtn">Check</button>
 				</td>
 			</tr>
 			<tr>
@@ -231,7 +231,7 @@
 				<td data-answer="blessed, blest" contenteditable></td>
 				<td data-answer="blessed, blest" contenteditable></td>
 				<td>
-					<button>Check</button>
+					<button class="checkBtn">Check</button>
 				</td>
 			</tr>
 			<tr>
@@ -240,7 +240,7 @@
 				<td data-answer="blew" contenteditable></td>
 				<td data-answer="blown" contenteditable></td>
 				<td>
-					<button>Check</button>
+					<button class="checkBtn">Check</button>
 				</td>
 			</tr>
 			<tr>
@@ -249,7 +249,7 @@
 				<td data-answer="broke" contenteditable></td>
 				<td data-answer="broken" contenteditable></td>
 				<td>
-					<button>Check</button>
+					<button class="checkBtn">Check</button>
 				</td>
 			</tr>
 			<tr>
@@ -258,7 +258,7 @@
 				<td data-answer="bred" contenteditable></td>
 				<td data-answer="bred" contenteditable></td>
 				<td>
-					<button>Check</button>
+					<button class="checkBtn">Check</button>
 				</td>
 			</tr>
 			<tr>
@@ -267,7 +267,7 @@
 				<td data-answer="brought" contenteditable></td>
 				<td data-answer="brought" contenteditable></td>
 				<td>
-					<button>Check</button>
+					<button class="checkBtn">Check</button>
 				</td>
 			</tr>
 			<tr>
@@ -276,7 +276,7 @@
 				<td data-answer="broadcast, broadcasted" contenteditable></td>
 				<td data-answer="broadcast, broadcasted" contenteditable></td>
 				<td>
-					<button>Check</button>
+					<button class="checkBtn">Check</button>
 				</td>
 			</tr>
 			<tr>
@@ -285,7 +285,7 @@
 				<td data-answer="built" contenteditable></td>
 				<td data-answer="built" contenteditable></td>
 				<td>
-					<button>Check</button>
+					<button class="checkBtn">Check</button>
 				</td>
 			</tr>
 			<tr>
@@ -294,7 +294,7 @@
 				<td data-answer="burnt, burned" contenteditable></td>
 				<td data-answer="burnt, burned" contenteditable></td>
 				<td>
-					<button>Check</button>
+					<button class="checkBtn">Check</button>
 				</td>
 			</tr>
 			<tr>
@@ -303,7 +303,7 @@
 				<td data-answer="burst" contenteditable></td>
 				<td data-answer="burst" contenteditable></td>
 				<td>
-					<button>Check</button>
+					<button class="checkBtn">Check</button>
 				</td>
 			</tr>
 			<tr>
@@ -312,7 +312,7 @@
 				<td data-answer="bought" contenteditable></td>
 				<td data-answer="bought" contenteditable></td>
 				<td>
-					<button>Check</button>
+					<button class="checkBtn">Check</button>
 				</td>
 			</tr>
 			<tr>
@@ -321,7 +321,7 @@
 				<td data-answer="cast" contenteditable></td>
 				<td data-answer="cast" contenteditable></td>
 				<td>
-					<button>Check</button>
+					<button class="checkBtn">Check</button>
 				</td>
 			</tr>
 			<tr>
@@ -330,7 +330,7 @@
 				<td data-answer="caught" contenteditable></td>
 				<td data-answer="caught" contenteditable></td>
 				<td>
-					<button>Check</button>
+					<button class="checkBtn">Check</button>
 				</td>
 			</tr>
 			<tr>
@@ -339,7 +339,7 @@
 				<td data-answer="chidded, chid" contenteditable></td>
 				<td data-answer="chidded, chidden" contenteditable></td>
 				<td>
-					<button>Check</button>
+					<button class="checkBtn">Check</button>
 				</td>
 			</tr>
 			<tr>
@@ -348,7 +348,7 @@
 				<td data-answer="chose" contenteditable></td>
 				<td data-answer="chosen" contenteditable></td>
 				<td>
-					<button>Check</button>
+					<button class="checkBtn">Check</button>
 				</td>
 			</tr>
 			<tr>
@@ -357,7 +357,7 @@
 				<td data-answer="clove, cleft" contenteditable></td>
 				<td data-answer="cloven, cleft" contenteditable></td>
 				<td>
-					<button>Check</button>
+					<button class="checkBtn">Check</button>
 				</td>
 			</tr>
 			<tr>
@@ -366,7 +366,7 @@
 				<td data-answer="clung" contenteditable></td>
 				<td data-answer="clung" contenteditable></td>
 				<td>
-					<button>Check</button>
+					<button class="checkBtn">Check</button>
 				</td>
 			</tr>
 			<tr>
@@ -375,7 +375,7 @@
 				<td data-answer="clothed, clad" contenteditable></td>
 				<td data-answer="clothed, clad" contenteditable></td>
 				<td>
-					<button>Check</button>
+					<button class="checkBtn">Check</button>
 				</td>
 			</tr>
 			<tr>
@@ -384,7 +384,7 @@
 				<td data-answer="came" contenteditable></td>
 				<td data-answer="come" contenteditable></td>
 				<td>
-					<button>Check</button>
+					<button class="checkBtn">Check</button>
 				</td>
 			</tr>
 			<tr>
@@ -393,7 +393,7 @@
 				<td data-answer="cost" contenteditable></td>
 				<td data-answer="cost" contenteditable></td>
 				<td>
-					<button>Check</button>
+					<button class="checkBtn">Check</button>
 				</td>
 			</tr>
 			<tr>
@@ -402,7 +402,7 @@
 				<td data-answer="crept" contenteditable></td>
 				<td data-answer="crept" contenteditable></td>
 				<td>
-					<button>Check</button>
+					<button class="checkBtn">Check</button>
 				</td>
 			</tr>
 			<tr>
@@ -411,7 +411,7 @@
 				<td data-answer="crowed, crew" contenteditable></td>
 				<td data-answer="crowed" contenteditable></td>
 				<td>
-					<button>Check</button>
+					<button class="checkBtn">Check</button>
 				</td>
 			</tr>
 			<tr>
@@ -420,7 +420,7 @@
 				<td data-answer="cut" contenteditable></td>
 				<td data-answer="cut" contenteditable></td>
 				<td>
-					<button>Check</button>
+					<button class="checkBtn">Check</button>
 				</td>
 			</tr>
 			<tr>
@@ -429,7 +429,7 @@
 				<td data-answer="dared, durst" contenteditable></td>
 				<td data-answer="dared" contenteditable></td>
 				<td>
-					<button>Check</button>
+					<button class="checkBtn">Check</button>
 				</td>
 			</tr>
 			<tr>
@@ -438,7 +438,7 @@
 				<td data-answer="dealt" contenteditable></td>
 				<td data-answer="dealt" contenteditable></td>
 				<td>
-					<button>Check</button>
+					<button class="checkBtn">Check</button>
 				</td>
 			</tr>
 			<tr>
@@ -447,7 +447,7 @@
 				<td data-answer="dug" contenteditable></td>
 				<td data-answer="dug" contenteditable></td>
 				<td>
-					<button>Check</button>
+					<button class="checkBtn">Check</button>
 				</td>
 			</tr>
 			<tr>
@@ -456,7 +456,7 @@
 				<td data-answer="dived, dove" contenteditable></td>
 				<td data-answer="dived" contenteditable></td>
 				<td>
-					<button>Check</button>
+					<button class="checkBtn">Check</button>
 				</td>
 			</tr>
 			<tr>
@@ -465,7 +465,7 @@
 				<td data-answer="did" contenteditable></td>
 				<td data-answer="done" contenteditable></td>
 				<td>
-					<button>Check</button>
+					<button class="checkBtn">Check</button>
 				</td>
 			</tr>
 			<tr>
@@ -474,7 +474,7 @@
 				<td data-answer="drew" contenteditable></td>
 				<td data-answer="drawn" contenteditable></td>
 				<td>
-					<button>Check</button>
+					<button class="checkBtn">Check</button>
 				</td>
 			</tr>
 			<tr>
@@ -483,7 +483,7 @@
 				<td data-answer="dreamt, dreamed" contenteditable></td>
 				<td data-answer="dreamt, dreamed" contenteditable></td>
 				<td>
-					<button>Check</button>
+					<button class="checkBtn">Check</button>
 				</td>
 			</tr>
 			<tr>
@@ -492,7 +492,7 @@
 				<td data-answer="drank" contenteditable></td>
 				<td data-answer="drunk" contenteditable></td>
 				<td>
-					<button>Check</button>
+					<button class="checkBtn">Check</button>
 				</td>
 			</tr>
 			<tr>
@@ -501,7 +501,7 @@
 				<td data-answer="drove" contenteditable></td>
 				<td data-answer="driven" contenteditable></td>
 				<td>
-					<button>Check</button>
+					<button class="checkBtn">Check</button>
 				</td>
 			</tr>
 			<tr>
@@ -510,7 +510,7 @@
 				<td data-answer="dwelt" contenteditable></td>
 				<td data-answer="dwelt" contenteditable></td>
 				<td>
-					<button>Check</button>
+					<button class="checkBtn">Check</button>
 				</td>
 			</tr>
 			<tr>
@@ -519,7 +519,7 @@
 				<td data-answer="ate" contenteditable></td>
 				<td data-answer="eaten" contenteditable></td>
 				<td>
-					<button>Check</button>
+					<button class="checkBtn">Check</button>
 				</td>
 			</tr>
 			<tr>
@@ -528,7 +528,7 @@
 				<td data-answer="fell" contenteditable></td>
 				<td data-answer="fallen" contenteditable></td>
 				<td>
-					<button>Check</button>
+					<button class="checkBtn">Check</button>
 				</td>
 			</tr>
 			<tr>
@@ -537,7 +537,7 @@
 				<td data-answer="fed" contenteditable></td>
 				<td data-answer="fed" contenteditable></td>
 				<td>
-					<button>Check</button>
+					<button class="checkBtn">Check</button>
 				</td>
 			</tr>
 			<tr>
@@ -546,7 +546,7 @@
 				<td data-answer="felt" contenteditable></td>
 				<td data-answer="felt" contenteditable></td>
 				<td>
-					<button>Check</button>
+					<button class="checkBtn">Check</button>
 				</td>
 			</tr>
 			<tr>
@@ -555,7 +555,7 @@
 				<td data-answer="fought" contenteditable></td>
 				<td data-answer="fought" contenteditable></td>
 				<td>
-					<button>Check</button>
+					<button class="checkBtn">Check</button>
 				</td>
 			</tr>
 			<tr>
@@ -564,7 +564,7 @@
 				<td data-answer="found" contenteditable></td>
 				<td data-answer="found" contenteditable></td>
 				<td>
-					<button>Check</button>
+					<button class="checkBtn">Check</button>
 				</td>
 			</tr>
 			<tr>
@@ -573,7 +573,7 @@
 				<td data-answer="fled" contenteditable></td>
 				<td data-answer="fled" contenteditable></td>
 				<td>
-					<button>Check</button>
+					<button class="checkBtn">Check</button>
 				</td>
 			</tr>
 			<tr>
@@ -582,7 +582,7 @@
 				<td data-answer="flung" contenteditable></td>
 				<td data-answer="flung" contenteditable></td>
 				<td>
-					<button>Check</button>
+					<button class="checkBtn">Check</button>
 				</td>
 			</tr>
 			<tr>
@@ -591,7 +591,7 @@
 				<td data-answer="flew" contenteditable></td>
 				<td data-answer="flown" contenteditable></td>
 				<td>
-					<button>Check</button>
+					<button class="checkBtn">Check</button>
 				</td>
 			</tr>
 			<tr>
@@ -600,7 +600,7 @@
 				<td data-answer="forbore" contenteditable></td>
 				<td data-answer="forborne" contenteditable></td>
 				<td>
-					<button>Check</button>
+					<button class="checkBtn">Check</button>
 				</td>
 			</tr>
 			<tr>
@@ -609,7 +609,7 @@
 				<td data-answer="forbade, forbad" contenteditable></td>
 				<td data-answer="forbidden" contenteditable></td>
 				<td>
-					<button>Check</button>
+					<button class="checkBtn">Check</button>
 				</td>
 			</tr>
 			<tr>
@@ -618,7 +618,7 @@
 				<td data-answer="forecast, forcasted" contenteditable></td>
 				<td data-answer="forecast, forcasted" contenteditable></td>
 				<td>
-					<button>Check</button>
+					<button class="checkBtn">Check</button>
 				</td>
 			</tr>
 			<tr>
@@ -627,7 +627,7 @@
 				<td data-answer="foreknew" contenteditable></td>
 				<td data-answer="foreknown" contenteditable></td>
 				<td>
-					<button>Check</button>
+					<button class="checkBtn">Check</button>
 				</td>
 			</tr>
 			<tr>
@@ -636,7 +636,7 @@
 				<td data-answer="foresaw" contenteditable></td>
 				<td data-answer="foreseen" contenteditable></td>
 				<td>
-					<button>Check</button>
+					<button class="checkBtn">Check</button>
 				</td>
 			</tr>
 			<tr>
@@ -645,7 +645,7 @@
 				<td data-answer="foretold" contenteditable></td>
 				<td data-answer="foretold" contenteditable></td>
 				<td>
-					<button>Check</button>
+					<button class="checkBtn">Check</button>
 				</td>
 			</tr>
 			<tr>
@@ -654,7 +654,7 @@
 				<td data-answer="forgot" contenteditable></td>
 				<td data-answer="forgotten" contenteditable></td>
 				<td>
-					<button>Check</button>
+					<button class="checkBtn">Check</button>
 				</td>
 			</tr>
 			<tr>
@@ -663,7 +663,7 @@
 				<td data-answer="forgave" contenteditable></td>
 				<td data-answer="forgiven" contenteditable></td>
 				<td>
-					<button>Check</button>
+					<button class="checkBtn">Check</button>
 				</td>
 			</tr>
 			<tr>
@@ -672,7 +672,7 @@
 				<td data-answer="forsook" contenteditable></td>
 				<td data-answer="forsaken" contenteditable></td>
 				<td>
-					<button>Check</button>
+					<button class="checkBtn">Check</button>
 				</td>
 			</tr>
 			<tr>
@@ -681,7 +681,7 @@
 				<td data-answer="forswore" contenteditable></td>
 				<td data-answer="forsworn" contenteditable></td>
 				<td>
-					<button>Check</button>
+					<button class="checkBtn">Check</button>
 				</td>
 			</tr>
 			<tr>
@@ -690,7 +690,7 @@
 				<td data-answer="froze" contenteditable></td>
 				<td data-answer="frozen" contenteditable></td>
 				<td>
-					<button>Check</button>
+					<button class="checkBtn">Check</button>
 				</td>
 			</tr>
 			<tr>
@@ -699,7 +699,7 @@
 				<td data-answer="gainsaid" contenteditable></td>
 				<td data-answer="gainsaid" contenteditable></td>
 				<td>
-					<button>Check</button>
+					<button class="checkBtn">Check</button>
 				</td>
 			</tr>
 			<tr>
@@ -708,7 +708,7 @@
 				<td data-answer="got" contenteditable></td>
 				<td data-answer="got, gotten" contenteditable></td>
 				<td>
-					<button>Check</button>
+					<button class="checkBtn">Check</button>
 				</td>
 			</tr>
 			<tr>
@@ -717,7 +717,7 @@
 				<td data-answer="gilded, gilt" contenteditable></td>
 				<td data-answer="gilded" contenteditable></td>
 				<td>
-					<button>Check</button>
+					<button class="checkBtn">Check</button>
 				</td>
 			</tr>
 			<tr>
@@ -726,7 +726,7 @@
 				<td data-answer="girded, girt" contenteditable></td>
 				<td data-answer="girded, girt" contenteditable></td>
 				<td>
-					<button>Check</button>
+					<button class="checkBtn">Check</button>
 				</td>
 			</tr>
 			<tr>
@@ -735,7 +735,7 @@
 				<td data-answer="gave" contenteditable></td>
 				<td data-answer="given" contenteditable></td>
 				<td>
-					<button>Check</button>
+					<button class="checkBtn">Check</button>
 				</td>
 			</tr>
 			<tr>
@@ -744,7 +744,7 @@
 				<td data-answer="went" contenteditable></td>
 				<td data-answer="gone" contenteditable></td>
 				<td>
-					<button>Check</button>
+					<button class="checkBtn">Check</button>
 				</td>
 			</tr>
 			<tr>
@@ -753,7 +753,7 @@
 				<td data-answer="graved" contenteditable></td>
 				<td data-answer="graven, graved" contenteditable></td>
 				<td>
-					<button>Check</button>
+					<button class="checkBtn">Check</button>
 				</td>
 			</tr>
 			<tr>
@@ -762,7 +762,7 @@
 				<td data-answer="ground" contenteditable></td>
 				<td data-answer="ground" contenteditable></td>
 				<td>
-					<button>Check</button>
+					<button class="checkBtn">Check</button>
 				</td>
 			</tr>
 			<tr>
@@ -771,7 +771,7 @@
 				<td data-answer="grew" contenteditable></td>
 				<td data-answer="grown" contenteditable></td>
 				<td>
-					<button>Check</button>
+					<button class="checkBtn">Check</button>
 				</td>
 			</tr>
 			<tr>
@@ -780,7 +780,7 @@
 				<td data-answer="hamstringed, hamstrung" contenteditable></td>
 				<td data-answer="hamstringed, hamstrung" contenteditable></td>
 				<td>
-					<button>Check</button>
+					<button class="checkBtn">Check</button>
 				</td>
 			</tr>
 			<tr>
@@ -789,7 +789,7 @@
 				<td data-answer="hung, hanged" contenteditable></td>
 				<td data-answer="hung, hanged" contenteditable></td>
 				<td>
-					<button>Check</button>
+					<button class="checkBtn">Check</button>
 				</td>
 			</tr>
 			<tr>
@@ -798,7 +798,7 @@
 				<td data-answer="had" contenteditable></td>
 				<td data-answer="had" contenteditable></td>
 				<td>
-					<button>Check</button>
+					<button class="checkBtn">Check</button>
 				</td>
 			</tr>
 			<tr>
@@ -807,7 +807,7 @@
 				<td data-answer="heard" contenteditable></td>
 				<td data-answer="heard" contenteditable></td>
 				<td>
-					<button>Check</button>
+					<button class="checkBtn">Check</button>
 				</td>
 			</tr>
 			<tr>
@@ -816,7 +816,7 @@
 				<td data-answer="heaved, hove" contenteditable></td>
 				<td data-answer="heaved, hove" contenteditable></td>
 				<td>
-					<button>Check</button>
+					<button class="checkBtn">Check</button>
 				</td>
 			</tr>
 			<tr>
@@ -825,7 +825,7 @@
 				<td data-answer="hewed" contenteditable></td>
 				<td data-answer="hewed, hewn" contenteditable></td>
 				<td>
-					<button>Check</button>
+					<button class="checkBtn">Check</button>
 				</td>
 			</tr>
 			<tr>
@@ -834,7 +834,7 @@
 				<td data-answer="hid" contenteditable></td>
 				<td data-answer="hidden" contenteditable></td>
 				<td>
-					<button>Check</button>
+					<button class="checkBtn">Check</button>
 				</td>
 			</tr>
 			<tr>
@@ -843,7 +843,7 @@
 				<td data-answer="hit" contenteditable></td>
 				<td data-answer="hit" contenteditable></td>
 				<td>
-					<button>Check</button>
+					<button class="checkBtn">Check</button>
 				</td>
 			</tr>
 			<tr>
@@ -852,7 +852,7 @@
 				<td data-answer="held" contenteditable></td>
 				<td data-answer="held" contenteditable></td>
 				<td>
-					<button>Check</button>
+					<button class="checkBtn">Check</button>
 				</td>
 			</tr>
 			<tr>
@@ -861,7 +861,7 @@
 				<td data-answer="hurt" contenteditable></td>
 				<td data-answer="hurt" contenteditable></td>
 				<td>
-					<button>Check</button>
+					<button class="checkBtn">Check</button>
 				</td>
 			</tr>
 			<tr>
@@ -870,7 +870,7 @@
 				<td data-answer="inlaid" contenteditable></td>
 				<td data-answer="inlaid" contenteditable></td>
 				<td>
-					<button>Check</button>
+					<button class="checkBtn">Check</button>
 				</td>
 			</tr>
 			<tr>
@@ -879,7 +879,7 @@
 				<td data-answer="kept" contenteditable></td>
 				<td data-answer="kept" contenteditable></td>
 				<td>
-					<button>Check</button>
+					<button class="checkBtn">Check</button>
 				</td>
 			</tr>
 			<tr>
@@ -888,7 +888,7 @@
 				<td data-answer="knelt" contenteditable></td>
 				<td data-answer="knelt" contenteditable></td>
 				<td>
-					<button>Check</button>
+					<button class="checkBtn">Check</button>
 				</td>
 			</tr>
 			<tr>
@@ -897,7 +897,7 @@
 				<td data-answer="knitted, knit" contenteditable></td>
 				<td data-answer="knitted, knit" contenteditable></td>
 				<td>
-					<button>Check</button>
+					<button class="checkBtn">Check</button>
 				</td>
 			</tr>
 			<tr>
@@ -906,7 +906,7 @@
 				<td data-answer="knew" contenteditable></td>
 				<td data-answer="known" contenteditable></td>
 				<td>
-					<button>Check</button>
+					<button class="checkBtn">Check</button>
 				</td>
 			</tr>
 			<tr>
@@ -915,7 +915,7 @@
 				<td data-answer="laded" contenteditable></td>
 				<td data-answer="laden" contenteditable></td>
 				<td>
-					<button>Check</button>
+					<button class="checkBtn">Check</button>
 				</td>
 			</tr>
 			<tr>
@@ -924,7 +924,7 @@
 				<td data-answer="laid" contenteditable></td>
 				<td data-answer="laid" contenteditable></td>
 				<td>
-					<button>Check</button>
+					<button class="checkBtn">Check</button>
 				</td>
 			</tr>
 			<tr>
@@ -933,7 +933,7 @@
 				<td data-answer="led" contenteditable></td>
 				<td data-answer="led" contenteditable></td>
 				<td>
-					<button>Check</button>
+					<button class="checkBtn">Check</button>
 				</td>
 			</tr>
 			<tr>
@@ -942,7 +942,7 @@
 				<td data-answer="leant, leaned" contenteditable></td>
 				<td data-answer="leant, leaned" contenteditable></td>
 				<td>
-					<button>Check</button>
+					<button class="checkBtn">Check</button>
 				</td>
 			</tr>
 			<tr>
@@ -951,7 +951,7 @@
 				<td data-answer="leapt, leaped" contenteditable></td>
 				<td data-answer="leapt, leaped" contenteditable></td>
 				<td>
-					<button>Check</button>
+					<button class="checkBtn">Check</button>
 				</td>
 			</tr>
 			<tr>
@@ -960,7 +960,7 @@
 				<td data-answer="learnt, learned" contenteditable></td>
 				<td data-answer="learnt, learned" contenteditable></td>
 				<td>
-					<button>Check</button>
+					<button class="checkBtn">Check</button>
 				</td>
 			</tr>
 			<tr>
@@ -969,7 +969,7 @@
 				<td data-answer="left" contenteditable></td>
 				<td data-answer="left" contenteditable></td>
 				<td>
-					<button>Check</button>
+					<button class="checkBtn">Check</button>
 				</td>
 			</tr>
 			<tr>
@@ -978,7 +978,7 @@
 				<td data-answer="lent" contenteditable></td>
 				<td data-answer="lent" contenteditable></td>
 				<td>
-					<button>Check</button>
+					<button class="checkBtn">Check</button>
 				</td>
 			</tr>
 			<tr>
@@ -987,7 +987,7 @@
 				<td data-answer="let" contenteditable></td>
 				<td data-answer="let" contenteditable></td>
 				<td>
-					<button>Check</button>
+					<button class="checkBtn">Check</button>
 				</td>
 			</tr>
 			<tr>
@@ -996,7 +996,7 @@
 				<td data-answer="lay" contenteditable></td>
 				<td data-answer="lain" contenteditable></td>
 				<td>
-					<button>Check</button>
+					<button class="checkBtn">Check</button>
 				</td>
 			</tr>
 			<tr>
@@ -1005,7 +1005,7 @@
 				<td data-answer="lit, lighted" contenteditable></td>
 				<td data-answer="lit, lighted" contenteditable></td>
 				<td>
-					<button>Check</button>
+					<button class="checkBtn">Check</button>
 				</td>
 			</tr>
 			<tr>
@@ -1014,7 +1014,7 @@
 				<td data-answer="lost" contenteditable></td>
 				<td data-answer="lost" contenteditable></td>
 				<td>
-					<button>Check</button>
+					<button class="checkBtn">Check</button>
 				</td>
 			</tr>
 			<tr>
@@ -1023,7 +1023,7 @@
 				<td data-answer="made" contenteditable></td>
 				<td data-answer="made" contenteditable></td>
 				<td>
-					<button>Check</button>
+					<button class="checkBtn">Check</button>
 				</td>
 			</tr>
 			<tr>
@@ -1032,7 +1032,7 @@
 				<td data-answer="meant" contenteditable></td>
 				<td data-answer="meant" contenteditable></td>
 				<td>
-					<button>Check</button>
+					<button class="checkBtn">Check</button>
 				</td>
 			</tr>
 			<tr>
@@ -1041,7 +1041,7 @@
 				<td data-answer="met" contenteditable></td>
 				<td data-answer="met" contenteditable></td>
 				<td>
-					<button>Check</button>
+					<button class="checkBtn">Check</button>
 				</td>
 			</tr>
 			<tr>
@@ -1050,7 +1050,7 @@
 				<td data-answer="melted" contenteditable></td>
 				<td data-answer="melted, molten" contenteditable></td>
 				<td>
-					<button>Check</button>
+					<button class="checkBtn">Check</button>
 				</td>
 			</tr>
 			<tr>
@@ -1059,7 +1059,7 @@
 				<td data-answer="miscast" contenteditable></td>
 				<td data-answer="miscast" contenteditable></td>
 				<td>
-					<button>Check</button>
+					<button class="checkBtn">Check</button>
 				</td>
 			</tr>
 			<tr>
@@ -1068,7 +1068,7 @@
 				<td data-answer="misdealt" contenteditable></td>
 				<td data-answer="misdealt" contenteditable></td>
 				<td>
-					<button>Check</button>
+					<button class="checkBtn">Check</button>
 				</td>
 			</tr>
 			<tr>
@@ -1077,7 +1077,7 @@
 				<td data-answer="misgave" contenteditable></td>
 				<td data-answer="misgiven" contenteditable></td>
 				<td>
-					<button>Check</button>
+					<button class="checkBtn">Check</button>
 				</td>
 			</tr>
 			<tr>
@@ -1086,7 +1086,7 @@
 				<td data-answer="mislaid" contenteditable></td>
 				<td data-answer="mislaid" contenteditable></td>
 				<td>
-					<button>Check</button>
+					<button class="checkBtn">Check</button>
 				</td>
 			</tr>
 			<tr>
@@ -1095,7 +1095,7 @@
 				<td data-answer="misled" contenteditable></td>
 				<td data-answer="misled" contenteditable></td>
 				<td>
-					<button>Check</button>
+					<button class="checkBtn">Check</button>
 				</td>
 			</tr>
 			<tr>
@@ -1104,7 +1104,7 @@
 				<td data-answer="misspelt" contenteditable></td>
 				<td data-answer="misspelt" contenteditable></td>
 				<td>
-					<button>Check</button>
+					<button class="checkBtn">Check</button>
 				</td>
 			</tr>
 			<tr>
@@ -1113,7 +1113,7 @@
 				<td data-answer="misspent" contenteditable></td>
 				<td data-answer="misspent" contenteditable></td>
 				<td>
-					<button>Check</button>
+					<button class="checkBtn">Check</button>
 				</td>
 			</tr>
 			<tr>
@@ -1122,7 +1122,7 @@
 				<td data-answer="mistook" contenteditable></td>
 				<td data-answer="mistaken" contenteditable></td>
 				<td>
-					<button>Check</button>
+					<button class="checkBtn">Check</button>
 				</td>
 			</tr>
 			<tr>
@@ -1131,7 +1131,7 @@
 				<td data-answer="misunderstood" contenteditable></td>
 				<td data-answer="misunderstood" contenteditable></td>
 				<td>
-					<button>Check</button>
+					<button class="checkBtn">Check</button>
 				</td>
 			</tr>
 			<tr>
@@ -1140,7 +1140,7 @@
 				<td data-answer="mowed" contenteditable></td>
 				<td data-answer="mown, mowed" contenteditable></td>
 				<td>
-					<button>Check</button>
+					<button class="checkBtn">Check</button>
 				</td>
 			</tr>
 			<tr>
@@ -1149,7 +1149,7 @@
 				<td data-answer="outbid" contenteditable></td>
 				<td data-answer="outbid" contenteditable></td>
 				<td>
-					<button>Check</button>
+					<button class="checkBtn">Check</button>
 				</td>
 			</tr>
 			<tr>
@@ -1158,7 +1158,7 @@
 				<td data-answer="outdid" contenteditable></td>
 				<td data-answer="outdone" contenteditable></td>
 				<td>
-					<button>Check</button>
+					<button class="checkBtn">Check</button>
 				</td>
 			</tr>
 			<tr>
@@ -1167,7 +1167,7 @@
 				<td data-answer="outwent" contenteditable></td>
 				<td data-answer="outgone" contenteditable></td>
 				<td>
-					<button>Check</button>
+					<button class="checkBtn">Check</button>
 				</td>
 			</tr>
 			<tr>
@@ -1176,7 +1176,7 @@
 				<td data-answer="outgrew" contenteditable></td>
 				<td data-answer="outgrown" contenteditable></td>
 				<td>
-					<button>Check</button>
+					<button class="checkBtn">Check</button>
 				</td>
 			</tr>
 			<tr>
@@ -1185,7 +1185,7 @@
 				<td data-answer="outrode" contenteditable></td>
 				<td data-answer="outridden" contenteditable></td>
 				<td>
-					<button>Check</button>
+					<button class="checkBtn">Check</button>
 				</td>
 			</tr>
 			<tr>
@@ -1194,7 +1194,7 @@
 				<td data-answer="outran" contenteditable></td>
 				<td data-answer="outrun" contenteditable></td>
 				<td>
-					<button>Check</button>
+					<button class="checkBtn">Check</button>
 				</td>
 			</tr>
 			<tr>
@@ -1203,7 +1203,7 @@
 				<td data-answer="outshone" contenteditable></td>
 				<td data-answer="outshone" contenteditable></td>
 				<td>
-					<button>Check</button>
+					<button class="checkBtn">Check</button>
 				</td>
 			</tr>
 			<tr>
@@ -1212,7 +1212,7 @@
 				<td data-answer="overbore" contenteditable></td>
 				<td data-answer="overborne" contenteditable></td>
 				<td>
-					<button>Check</button>
+					<button class="checkBtn">Check</button>
 				</td>
 			</tr>
 			<tr>
@@ -1221,7 +1221,7 @@
 				<td data-answer="overcast" contenteditable></td>
 				<td data-answer="overcast" contenteditable></td>
 				<td>
-					<button>Check</button>
+					<button class="checkBtn">Check</button>
 				</td>
 			</tr>
 			<tr>
@@ -1230,7 +1230,7 @@
 				<td data-answer="overcame" contenteditable></td>
 				<td data-answer="overcome" contenteditable></td>
 				<td>
-					<button>Check</button>
+					<button class="checkBtn">Check</button>
 				</td>
 			</tr>
 			<tr>
@@ -1239,7 +1239,7 @@
 				<td data-answer="overdid" contenteditable></td>
 				<td data-answer="overdone" contenteditable></td>
 				<td>
-					<button>Check</button>
+					<button class="checkBtn">Check</button>
 				</td>
 			</tr>
 			<tr>
@@ -1248,7 +1248,7 @@
 				<td data-answer="overhung" contenteditable></td>
 				<td data-answer="overhung" contenteditable></td>
 				<td>
-					<button>Check</button>
+					<button class="checkBtn">Check</button>
 				</td>
 			</tr>
 			<tr>
@@ -1257,7 +1257,7 @@
 				<td data-answer="overheard" contenteditable></td>
 				<td data-answer="overheard" contenteditable></td>
 				<td>
-					<button>Check</button>
+					<button class="checkBtn">Check</button>
 				</td>
 			</tr>
 			<tr>
@@ -1266,7 +1266,7 @@
 				<td data-answer="overlaid" contenteditable></td>
 				<td data-answer="overlaid" contenteditable></td>
 				<td>
-					<button>Check</button>
+					<button class="checkBtn">Check</button>
 				</td>
 			</tr>
 			<tr>
@@ -1275,7 +1275,7 @@
 				<td data-answer="overleapt, overleaped" contenteditable></td>
 				<td data-answer="overleapt, overleaped" contenteditable></td>
 				<td>
-					<button>Check</button>
+					<button class="checkBtn">Check</button>
 				</td>
 			</tr>
 			<tr>
@@ -1284,7 +1284,7 @@
 				<td data-answer="overlay" contenteditable></td>
 				<td data-answer="overlain" contenteditable></td>
 				<td>
-					<button>Check</button>
+					<button class="checkBtn">Check</button>
 				</td>
 			</tr>
 			<tr>
@@ -1293,7 +1293,7 @@
 				<td data-answer="overrode" contenteditable></td>
 				<td data-answer="overridden" contenteditable></td>
 				<td>
-					<button>Check</button>
+					<button class="checkBtn">Check</button>
 				</td>
 			</tr>
 			<tr>
@@ -1302,7 +1302,7 @@
 				<td data-answer="overran" contenteditable></td>
 				<td data-answer="overrun" contenteditable></td>
 				<td>
-					<button>Check</button>
+					<button class="checkBtn">Check</button>
 				</td>
 			</tr>
 			<tr>
@@ -1311,7 +1311,7 @@
 				<td data-answer="oversaw" contenteditable></td>
 				<td data-answer="overseen" contenteditable></td>
 				<td>
-					<button>Check</button>
+					<button class="checkBtn">Check</button>
 				</td>
 			</tr>
 			<tr>
@@ -1320,7 +1320,7 @@
 				<td data-answer="overshot" contenteditable></td>
 				<td data-answer="overshot" contenteditable></td>
 				<td>
-					<button>Check</button>
+					<button class="checkBtn">Check</button>
 				</td>
 			</tr>
 			<tr>
@@ -1329,7 +1329,7 @@
 				<td data-answer="overslept" contenteditable></td>
 				<td data-answer="overslept" contenteditable></td>
 				<td>
-					<button>Check</button>
+					<button class="checkBtn">Check</button>
 				</td>
 			</tr>
 			<tr>
@@ -1338,7 +1338,7 @@
 				<td data-answer="overtook" contenteditable></td>
 				<td data-answer="overtaken" contenteditable></td>
 				<td>
-					<button>Check</button>
+					<button class="checkBtn">Check</button>
 				</td>
 			</tr>
 			<tr>
@@ -1347,7 +1347,7 @@
 				<td data-answer="overthrew" contenteditable></td>
 				<td data-answer="overthrown" contenteditable></td>
 				<td>
-					<button>Check</button>
+					<button class="checkBtn">Check</button>
 				</td>
 			</tr>
 			<tr>
@@ -1356,7 +1356,7 @@
 				<td data-answer="partook" contenteditable></td>
 				<td data-answer="partaken" contenteditable></td>
 				<td>
-					<button>Check</button>
+					<button class="checkBtn">Check</button>
 				</td>
 			</tr>
 			<tr>
@@ -1365,7 +1365,7 @@
 				<td data-answer="paid" contenteditable></td>
 				<td data-answer="paid" contenteditable></td>
 				<td>
-					<button>Check</button>
+					<button class="checkBtn">Check</button>
 				</td>
 			</tr>
 			<tr>
@@ -1374,7 +1374,7 @@
 				<td data-answer="proved" contenteditable></td>
 				<td data-answer="proved, proven" contenteditable></td>
 				<td>
-					<button>Check</button>
+					<button class="checkBtn">Check</button>
 				</td>
 			</tr>
 			<tr>
@@ -1383,7 +1383,7 @@
 				<td data-answer="put" contenteditable></td>
 				<td data-answer="put" contenteditable></td>
 				<td>
-					<button>Check</button>
+					<button class="checkBtn">Check</button>
 				</td>
 			</tr>
 			<tr>
@@ -1392,7 +1392,7 @@
 				<td data-answer="quitted, quit" contenteditable></td>
 				<td data-answer="quitted, quit" contenteditable></td>
 				<td>
-					<button>Check</button>
+					<button class="checkBtn">Check</button>
 				</td>
 			</tr>
 			<tr>
@@ -1401,7 +1401,7 @@
 				<td data-answer="read" contenteditable></td>
 				<td data-answer="read" contenteditable></td>
 				<td>
-					<button>Check</button>
+					<button class="checkBtn">Check</button>
 				</td>
 			</tr>
 			<tr>
@@ -1410,7 +1410,7 @@
 				<td data-answer="rebound" contenteditable></td>
 				<td data-answer="rebound" contenteditable></td>
 				<td>
-					<button>Check</button>
+					<button class="checkBtn">Check</button>
 				</td>
 			</tr>
 			<tr>
@@ -1419,7 +1419,7 @@
 				<td data-answer="rebuilt" contenteditable></td>
 				<td data-answer="rebuilt" contenteditable></td>
 				<td>
-					<button>Check</button>
+					<button class="checkBtn">Check</button>
 				</td>
 			</tr>
 			<tr>
@@ -1428,7 +1428,7 @@
 				<td data-answer="recast" contenteditable></td>
 				<td data-answer="recast" contenteditable></td>
 				<td>
-					<button>Check</button>
+					<button class="checkBtn">Check</button>
 				</td>
 			</tr>
 			<tr>
@@ -1437,7 +1437,7 @@
 				<td data-answer="redid" contenteditable></td>
 				<td data-answer="redone" contenteditable></td>
 				<td>
-					<button>Check</button>
+					<button class="checkBtn">Check</button>
 				</td>
 			</tr>
 			<tr>
@@ -1446,7 +1446,7 @@
 				<td data-answer="relaid" contenteditable></td>
 				<td data-answer="relaid" contenteditable></td>
 				<td>
-					<button>Check</button>
+					<button class="checkBtn">Check</button>
 				</td>
 			</tr>
 			<tr>
@@ -1455,7 +1455,7 @@
 				<td data-answer="remade" contenteditable></td>
 				<td data-answer="remade" contenteditable></td>
 				<td>
-					<button>Check</button>
+					<button class="checkBtn">Check</button>
 				</td>
 			</tr>
 			<tr>
@@ -1464,7 +1464,7 @@
 				<td data-answer="rent" contenteditable></td>
 				<td data-answer="rent" contenteditable></td>
 				<td>
-					<button>Check</button>
+					<button class="checkBtn">Check</button>
 				</td>
 			</tr>
 			<tr>
@@ -1473,7 +1473,7 @@
 				<td data-answer="repaid" contenteditable></td>
 				<td data-answer="repaid" contenteditable></td>
 				<td>
-					<button>Check</button>
+					<button class="checkBtn">Check</button>
 				</td>
 			</tr>
 			<tr>
@@ -1482,7 +1482,7 @@
 				<td data-answer="reran" contenteditable></td>
 				<td data-answer="rerun" contenteditable></td>
 				<td>
-					<button>Check</button>
+					<button class="checkBtn">Check</button>
 				</td>
 			</tr>
 			<tr>
@@ -1491,7 +1491,7 @@
 				<td data-answer="reset" contenteditable></td>
 				<td data-answer="reset" contenteditable></td>
 				<td>
-					<button>Check</button>
+					<button class="checkBtn">Check</button>
 				</td>
 			</tr>
 			<tr>
@@ -1500,7 +1500,7 @@
 				<td data-answer="retold" contenteditable></td>
 				<td data-answer="retold" contenteditable></td>
 				<td>
-					<button>Check</button>
+					<button class="checkBtn">Check</button>
 				</td>
 			</tr>
 			<tr>
@@ -1509,7 +1509,7 @@
 				<td data-answer="rewrote" contenteditable></td>
 				<td data-answer="rewritten" contenteditable></td>
 				<td>
-					<button>Check</button>
+					<button class="checkBtn">Check</button>
 				</td>
 			</tr>
 			<tr>
@@ -1518,7 +1518,7 @@
 				<td data-answer="rid, ridded" contenteditable></td>
 				<td data-answer="rid, ridded" contenteditable></td>
 				<td>
-					<button>Check</button>
+					<button class="checkBtn">Check</button>
 				</td>
 			</tr>
 			<tr>
@@ -1527,7 +1527,7 @@
 				<td data-answer="rode" contenteditable></td>
 				<td data-answer="ridden" contenteditable></td>
 				<td>
-					<button>Check</button>
+					<button class="checkBtn">Check</button>
 				</td>
 			</tr>
 			<tr>
@@ -1536,7 +1536,7 @@
 				<td data-answer="rang" contenteditable></td>
 				<td data-answer="rung" contenteditable></td>
 				<td>
-					<button>Check</button>
+					<button class="checkBtn">Check</button>
 				</td>
 			</tr>
 			<tr>
@@ -1545,7 +1545,7 @@
 				<td data-answer="rose" contenteditable></td>
 				<td data-answer="risen" contenteditable></td>
 				<td>
-					<button>Check</button>
+					<button class="checkBtn">Check</button>
 				</td>
 			</tr>
 			<tr>
@@ -1554,7 +1554,7 @@
 				<td data-answer="rived" contenteditable></td>
 				<td data-answer="riven, rived" contenteditable></td>
 				<td>
-					<button>Check</button>
+					<button class="checkBtn">Check</button>
 				</td>
 			</tr>
 			<tr>
@@ -1563,7 +1563,7 @@
 				<td data-answer="ran" contenteditable></td>
 				<td data-answer="run" contenteditable></td>
 				<td>
-					<button>Check</button>
+					<button class="checkBtn">Check</button>
 				</td>
 			</tr>
 			<tr>
@@ -1572,7 +1572,7 @@
 				<td data-answer="sawed" contenteditable></td>
 				<td data-answer="sawn, sawed" contenteditable></td>
 				<td>
-					<button>Check</button>
+					<button class="checkBtn">Check</button>
 				</td>
 			</tr>
 			<tr>
@@ -1581,7 +1581,7 @@
 				<td data-answer="said" contenteditable></td>
 				<td data-answer="said" contenteditable></td>
 				<td>
-					<button>Check</button>
+					<button class="checkBtn">Check</button>
 				</td>
 			</tr>
 			<tr>
@@ -1590,7 +1590,7 @@
 				<td data-answer="saw" contenteditable></td>
 				<td data-answer="seen" contenteditable></td>
 				<td>
-					<button>Check</button>
+					<button class="checkBtn">Check</button>
 				</td>
 			</tr>
 			<tr>
@@ -1599,7 +1599,7 @@
 				<td data-answer="sought" contenteditable></td>
 				<td data-answer="sought" contenteditable></td>
 				<td>
-					<button>Check</button>
+					<button class="checkBtn">Check</button>
 				</td>
 			</tr>
 			<tr>
@@ -1608,7 +1608,7 @@
 				<td data-answer="sold" contenteditable></td>
 				<td data-answer="sold" contenteditable></td>
 				<td>
-					<button>Check</button>
+					<button class="checkBtn">Check</button>
 				</td>
 			</tr>
 			<tr>
@@ -1617,7 +1617,7 @@
 				<td data-answer="sent" contenteditable></td>
 				<td data-answer="sent" contenteditable></td>
 				<td>
-					<button>Check</button>
+					<button class="checkBtn">Check</button>
 				</td>
 			</tr>
 			<tr>
@@ -1626,7 +1626,7 @@
 				<td data-answer="set" contenteditable></td>
 				<td data-answer="set" contenteditable></td>
 				<td>
-					<button>Check</button>
+					<button class="checkBtn">Check</button>
 				</td>
 			</tr>
 			<tr>
@@ -1635,7 +1635,7 @@
 				<td data-answer="sewed" contenteditable></td>
 				<td data-answer="sewn, sewed" contenteditable></td>
 				<td>
-					<button>Check</button>
+					<button class="checkBtn">Check</button>
 				</td>
 			</tr>
 			<tr>
@@ -1644,7 +1644,7 @@
 				<td data-answer="shook" contenteditable></td>
 				<td data-answer="shaken" contenteditable></td>
 				<td>
-					<button>Check</button>
+					<button class="checkBtn">Check</button>
 				</td>
 			</tr>
 			<tr>
@@ -1653,7 +1653,7 @@
 				<td data-answer="shaved" contenteditable></td>
 				<td data-answer="shaved, shaven" contenteditable></td>
 				<td>
-					<button>Check</button>
+					<button class="checkBtn">Check</button>
 				</td>
 			</tr>
 			<tr>
@@ -1662,7 +1662,7 @@
 				<td data-answer="sheared" contenteditable></td>
 				<td data-answer="sheared, shorn" contenteditable></td>
 				<td>
-					<button>Check</button>
+					<button class="checkBtn">Check</button>
 				</td>
 			</tr>
 			<tr>
@@ -1671,7 +1671,7 @@
 				<td data-answer="shed" contenteditable></td>
 				<td data-answer="shed" contenteditable></td>
 				<td>
-					<button>Check</button>
+					<button class="checkBtn">Check</button>
 				</td>
 			</tr>
 			<tr>
@@ -1680,7 +1680,7 @@
 				<td data-answer="shone" contenteditable></td>
 				<td data-answer="shone" contenteditable></td>
 				<td>
-					<button>Check</button>
+					<button class="checkBtn">Check</button>
 				</td>
 			</tr>
 			<tr>
@@ -1689,7 +1689,7 @@
 				<td data-answer="shod" contenteditable></td>
 				<td data-answer="shod" contenteditable></td>
 				<td>
-					<button>Check</button>
+					<button class="checkBtn">Check</button>
 				</td>
 			</tr>
 			<tr>
@@ -1698,7 +1698,7 @@
 				<td data-answer="shot" contenteditable></td>
 				<td data-answer="shot" contenteditable></td>
 				<td>
-					<button>Check</button>
+					<button class="checkBtn">Check</button>
 				</td>
 			</tr>
 			<tr>
@@ -1707,7 +1707,7 @@
 				<td data-answer="showed" contenteditable></td>
 				<td data-answer="shown, showed" contenteditable></td>
 				<td>
-					<button>Check</button>
+					<button class="checkBtn">Check</button>
 				</td>
 			</tr>
 			<tr>
@@ -1716,7 +1716,7 @@
 				<td data-answer="shrank, shrunk" contenteditable></td>
 				<td data-answer="shrunk, shrunken" contenteditable></td>
 				<td>
-					<button>Check</button>
+					<button class="checkBtn">Check</button>
 				</td>
 			</tr>
 			<tr>
@@ -1725,7 +1725,7 @@
 				<td data-answer="shrove, shrived" contenteditable></td>
 				<td data-answer="shriven, shrived" contenteditable></td>
 				<td>
-					<button>Check</button>
+					<button class="checkBtn">Check</button>
 				</td>
 			</tr>
 			<tr>
@@ -1734,7 +1734,7 @@
 				<td data-answer="shut" contenteditable></td>
 				<td data-answer="shut" contenteditable></td>
 				<td>
-					<button>Check</button>
+					<button class="checkBtn">Check</button>
 				</td>
 			</tr>
 			<tr>
@@ -1743,7 +1743,7 @@
 				<td data-answer="sang" contenteditable></td>
 				<td data-answer="sung" contenteditable></td>
 				<td>
-					<button>Check</button>
+					<button class="checkBtn">Check</button>
 				</td>
 			</tr>
 			<tr>
@@ -1752,7 +1752,7 @@
 				<td data-answer="sank" contenteditable></td>
 				<td data-answer="sunk, sunken" contenteditable></td>
 				<td>
-					<button>Check</button>
+					<button class="checkBtn">Check</button>
 				</td>
 			</tr>
 			<tr>
@@ -1761,7 +1761,7 @@
 				<td data-answer="sat" contenteditable></td>
 				<td data-answer="sat" contenteditable></td>
 				<td>
-					<button>Check</button>
+					<button class="checkBtn">Check</button>
 				</td>
 			</tr>
 			<tr>
@@ -1770,7 +1770,7 @@
 				<td data-answer="slew" contenteditable></td>
 				<td data-answer="slain" contenteditable></td>
 				<td>
-					<button>Check</button>
+					<button class="checkBtn">Check</button>
 				</td>
 			</tr>
 			<tr>
@@ -1779,7 +1779,7 @@
 				<td data-answer="slept" contenteditable></td>
 				<td data-answer="slept" contenteditable></td>
 				<td>
-					<button>Check</button>
+					<button class="checkBtn">Check</button>
 				</td>
 			</tr>
 			<tr>
@@ -1788,7 +1788,7 @@
 				<td data-answer="slid" contenteditable></td>
 				<td data-answer="slid" contenteditable></td>
 				<td>
-					<button>Check</button>
+					<button class="checkBtn">Check</button>
 				</td>
 			</tr>
 			<tr>
@@ -1797,7 +1797,7 @@
 				<td data-answer="slung" contenteditable></td>
 				<td data-answer="slung" contenteditable></td>
 				<td>
-					<button>Check</button>
+					<button class="checkBtn">Check</button>
 				</td>
 			</tr>
 			<tr>
@@ -1806,7 +1806,7 @@
 				<td data-answer="slunk" contenteditable></td>
 				<td data-answer="slunk" contenteditable></td>
 				<td>
-					<button>Check</button>
+					<button class="checkBtn">Check</button>
 				</td>
 			</tr>
 			<tr>
@@ -1815,7 +1815,7 @@
 				<td data-answer="slit" contenteditable></td>
 				<td data-answer="slit" contenteditable></td>
 				<td>
-					<button>Check</button>
+					<button class="checkBtn">Check</button>
 				</td>
 			</tr>
 			<tr>
@@ -1824,7 +1824,7 @@
 				<td data-answer="smelt, smelled" contenteditable></td>
 				<td data-answer="smelt, smelled" contenteditable></td>
 				<td>
-					<button>Check</button>
+					<button class="checkBtn">Check</button>
 				</td>
 			</tr>
 			<tr>
@@ -1833,7 +1833,7 @@
 				<td data-answer="smote" contenteditable></td>
 				<td data-answer="smitten" contenteditable></td>
 				<td>
-					<button>Check</button>
+					<button class="checkBtn">Check</button>
 				</td>
 			</tr>
 			<tr>
@@ -1842,7 +1842,7 @@
 				<td data-answer="sowed" contenteditable></td>
 				<td data-answer="sown, sowed" contenteditable></td>
 				<td>
-					<button>Check</button>
+					<button class="checkBtn">Check</button>
 				</td>
 			</tr>
 			<tr>
@@ -1851,7 +1851,7 @@
 				<td data-answer="spoke" contenteditable></td>
 				<td data-answer="spoken" contenteditable></td>
 				<td>
-					<button>Check</button>
+					<button class="checkBtn">Check</button>
 				</td>
 			</tr>
 			<tr>
@@ -1860,7 +1860,7 @@
 				<td data-answer="sped, speeded" contenteditable></td>
 				<td data-answer="sped, speeded" contenteditable></td>
 				<td>
-					<button>Check</button>
+					<button class="checkBtn">Check</button>
 				</td>
 			</tr>
 			<tr>
@@ -1869,7 +1869,7 @@
 				<td data-answer="spelt, spelled" contenteditable></td>
 				<td data-answer="spelt, spelled" contenteditable></td>
 				<td>
-					<button>Check</button>
+					<button class="checkBtn">Check</button>
 				</td>
 			</tr>
 			<tr>
@@ -1878,7 +1878,7 @@
 				<td data-answer="spent" contenteditable></td>
 				<td data-answer="spent" contenteditable></td>
 				<td>
-					<button>Check</button>
+					<button class="checkBtn">Check</button>
 				</td>
 			</tr>
 			<tr>
@@ -1887,7 +1887,7 @@
 				<td data-answer="spilt, spilled" contenteditable></td>
 				<td data-answer="spilt, spilled" contenteditable></td>
 				<td>
-					<button>Check</button>
+					<button class="checkBtn">Check</button>
 				</td>
 			</tr>
 			<tr>
@@ -1896,7 +1896,7 @@
 				<td data-answer="spun, span" contenteditable></td>
 				<td data-answer="spun" contenteditable></td>
 				<td>
-					<button>Check</button>
+					<button class="checkBtn">Check</button>
 				</td>
 			</tr>
 			<tr>
@@ -1905,7 +1905,7 @@
 				<td data-answer="spat" contenteditable></td>
 				<td data-answer="spat" contenteditable></td>
 				<td>
-					<button>Check</button>
+					<button class="checkBtn">Check</button>
 				</td>
 			</tr>
 			<tr>
@@ -1914,7 +1914,7 @@
 				<td data-answer="split" contenteditable></td>
 				<td data-answer="split" contenteditable></td>
 				<td>
-					<button>Check</button>
+					<button class="checkBtn">Check</button>
 				</td>
 			</tr>
 			<tr>
@@ -1923,7 +1923,7 @@
 				<td data-answer="spoilt, spoiled" contenteditable></td>
 				<td data-answer="spoilt, spoiled" contenteditable></td>
 				<td>
-					<button>Check</button>
+					<button class="checkBtn">Check</button>
 				</td>
 			</tr>
 			<tr>
@@ -1932,7 +1932,7 @@
 				<td data-answer="spread" contenteditable></td>
 				<td data-answer="spread" contenteditable></td>
 				<td>
-					<button>Check</button>
+					<button class="checkBtn">Check</button>
 				</td>
 			</tr>
 			<tr>
@@ -1941,7 +1941,7 @@
 				<td data-answer="sprang" contenteditable></td>
 				<td data-answer="sprung" contenteditable></td>
 				<td>
-					<button>Check</button>
+					<button class="checkBtn">Check</button>
 				</td>
 			</tr>
 			<tr>
@@ -1950,7 +1950,7 @@
 				<td data-answer="stood" contenteditable></td>
 				<td data-answer="stood" contenteditable></td>
 				<td>
-					<button>Check</button>
+					<button class="checkBtn">Check</button>
 				</td>
 			</tr>
 			<tr>
@@ -1959,7 +1959,7 @@
 				<td data-answer="staved, stove" contenteditable></td>
 				<td data-answer="staved, stove" contenteditable></td>
 				<td>
-					<button>Check</button>
+					<button class="checkBtn">Check</button>
 				</td>
 			</tr>
 			<tr>
@@ -1968,7 +1968,7 @@
 				<td data-answer="stole" contenteditable></td>
 				<td data-answer="stolen" contenteditable></td>
 				<td>
-					<button>Check</button>
+					<button class="checkBtn">Check</button>
 				</td>
 			</tr>
 			<tr>
@@ -1977,7 +1977,7 @@
 				<td data-answer="stuck" contenteditable></td>
 				<td data-answer="stuck" contenteditable></td>
 				<td>
-					<button>Check</button>
+					<button class="checkBtn">Check</button>
 				</td>
 			</tr>
 			<tr>
@@ -1986,7 +1986,7 @@
 				<td data-answer="stung" contenteditable></td>
 				<td data-answer="stung" contenteditable></td>
 				<td>
-					<button>Check</button>
+					<button class="checkBtn">Check</button>
 				</td>
 			</tr>
 			<tr>
@@ -1995,7 +1995,7 @@
 				<td data-answer="stank, stunk" contenteditable></td>
 				<td data-answer="stunk" contenteditable></td>
 				<td>
-					<button>Check</button>
+					<button class="checkBtn">Check</button>
 				</td>
 			</tr>
 			<tr>
@@ -2004,7 +2004,7 @@
 				<td data-answer="strewed" contenteditable></td>
 				<td data-answer="strewn, strewed" contenteditable></td>
 				<td>
-					<button>Check</button>
+					<button class="checkBtn">Check</button>
 				</td>
 			</tr>
 			<tr>
@@ -2013,7 +2013,7 @@
 				<td data-answer="strode" contenteditable></td>
 				<td data-answer="stridden" contenteditable></td>
 				<td>
-					<button>Check</button>
+					<button class="checkBtn">Check</button>
 				</td>
 			</tr>
 			<tr>
@@ -2022,7 +2022,7 @@
 				<td data-answer="struck" contenteditable></td>
 				<td data-answer="struck, stricken" contenteditable></td>
 				<td>
-					<button>Check</button>
+					<button class="checkBtn">Check</button>
 				</td>
 			</tr>
 			<tr>
@@ -2031,7 +2031,7 @@
 				<td data-answer="strung" contenteditable></td>
 				<td data-answer="strung" contenteditable></td>
 				<td>
-					<button>Check</button>
+					<button class="checkBtn">Check</button>
 				</td>
 			</tr>
 			<tr>
@@ -2040,7 +2040,7 @@
 				<td data-answer="strove" contenteditable></td>
 				<td data-answer="striven" contenteditable></td>
 				<td>
-					<button>Check</button>
+					<button class="checkBtn">Check</button>
 				</td>
 			</tr>
 			<tr>
@@ -2049,7 +2049,7 @@
 				<td data-answer="swore" contenteditable></td>
 				<td data-answer="sworn" contenteditable></td>
 				<td>
-					<button>Check</button>
+					<button class="checkBtn">Check</button>
 				</td>
 			</tr>
 			<tr>
@@ -2058,7 +2058,7 @@
 				<td data-answer="swept" contenteditable></td>
 				<td data-answer="swept" contenteditable></td>
 				<td>
-					<button>Check</button>
+					<button class="checkBtn">Check</button>
 				</td>
 			</tr>
 			<tr>
@@ -2067,7 +2067,7 @@
 				<td data-answer="swelled" contenteditable></td>
 				<td data-answer="swollen, swelled" contenteditable></td>
 				<td>
-					<button>Check</button>
+					<button class="checkBtn">Check</button>
 				</td>
 			</tr>
 			<tr>
@@ -2076,7 +2076,7 @@
 				<td data-answer="swam" contenteditable></td>
 				<td data-answer="swum" contenteditable></td>
 				<td>
-					<button>Check</button>
+					<button class="checkBtn">Check</button>
 				</td>
 			</tr>
 			<tr>
@@ -2085,7 +2085,7 @@
 				<td data-answer="swung" contenteditable></td>
 				<td data-answer="swung" contenteditable></td>
 				<td>
-					<button>Check</button>
+					<button class="checkBtn">Check</button>
 				</td>
 			</tr>
 			<tr>
@@ -2094,7 +2094,7 @@
 				<td data-answer="took" contenteditable></td>
 				<td data-answer="taken" contenteditable></td>
 				<td>
-					<button>Check</button>
+					<button class="checkBtn">Check</button>
 				</td>
 			</tr>
 			<tr>
@@ -2103,7 +2103,7 @@
 				<td data-answer="taught" contenteditable></td>
 				<td data-answer="taught" contenteditable></td>
 				<td>
-					<button>Check</button>
+					<button class="checkBtn">Check</button>
 				</td>
 			</tr>
 			<tr>
@@ -2112,7 +2112,7 @@
 				<td data-answer="tore" contenteditable></td>
 				<td data-answer="torn" contenteditable></td>
 				<td>
-					<button>Check</button>
+					<button class="checkBtn">Check</button>
 				</td>
 			</tr>
 			<tr>
@@ -2121,7 +2121,7 @@
 				<td data-answer="told" contenteditable></td>
 				<td data-answer="told" contenteditable></td>
 				<td>
-					<button>Check</button>
+					<button class="checkBtn">Check</button>
 				</td>
 			</tr>
 			<tr>
@@ -2130,7 +2130,7 @@
 				<td data-answer="thought" contenteditable></td>
 				<td data-answer="thought" contenteditable></td>
 				<td>
-					<button>Check</button>
+					<button class="checkBtn">Check</button>
 				</td>
 			</tr>
 			<tr>
@@ -2139,7 +2139,7 @@
 				<td data-answer="throve, thrived" contenteditable></td>
 				<td data-answer="thriven, thrived" contenteditable></td>
 				<td>
-					<button>Check</button>
+					<button class="checkBtn">Check</button>
 				</td>
 			</tr>
 			<tr>
@@ -2148,7 +2148,7 @@
 				<td data-answer="threw" contenteditable></td>
 				<td data-answer="thrown" contenteditable></td>
 				<td>
-					<button>Check</button>
+					<button class="checkBtn">Check</button>
 				</td>
 			</tr>
 			<tr>
@@ -2157,7 +2157,7 @@
 				<td data-answer="thurst" contenteditable></td>
 				<td data-answer="thurst" contenteditable></td>
 				<td>
-					<button>Check</button>
+					<button class="checkBtn">Check</button>
 				</td>
 			</tr>
 			<tr>
@@ -2166,7 +2166,7 @@
 				<td data-answer="trod" contenteditable></td>
 				<td data-answer="trodden, trod" contenteditable></td>
 				<td>
-					<button>Check</button>
+					<button class="checkBtn">Check</button>
 				</td>
 			</tr>
 			<tr>
@@ -2175,7 +2175,7 @@
 				<td data-answer="unbent" contenteditable></td>
 				<td data-answer="unbent" contenteditable></td>
 				<td>
-					<button>Check</button>
+					<button class="checkBtn">Check</button>
 				</td>
 			</tr>
 			<tr>
@@ -2184,7 +2184,7 @@
 				<td data-answer="unbound" contenteditable></td>
 				<td data-answer="unbound" contenteditable></td>
 				<td>
-					<button>Check</button>
+					<button class="checkBtn">Check</button>
 				</td>
 			</tr>
 			<tr>
@@ -2193,7 +2193,7 @@
 				<td data-answer="underbid" contenteditable></td>
 				<td data-answer="underbid" contenteditable></td>
 				<td>
-					<button>Check</button>
+					<button class="checkBtn">Check</button>
 				</td>
 			</tr>
 			<tr>
@@ -2202,7 +2202,7 @@
 				<td data-answer="underwent" contenteditable></td>
 				<td data-answer="undergone" contenteditable></td>
 				<td>
-					<button>Check</button>
+					<button class="checkBtn">Check</button>
 				</td>
 			</tr>
 			<tr>
@@ -2211,7 +2211,7 @@
 				<td data-answer="understood" contenteditable></td>
 				<td data-answer="understood" contenteditable></td>
 				<td>
-					<button>Check</button>
+					<button class="checkBtn">Check</button>
 				</td>
 			</tr>
 			<tr>
@@ -2220,7 +2220,7 @@
 				<td data-answer="undertook" contenteditable></td>
 				<td data-answer="undertaken" contenteditable></td>
 				<td>
-					<button>Check</button>
+					<button class="checkBtn">Check</button>
 				</td>
 			</tr>
 			<tr>
@@ -2229,7 +2229,7 @@
 				<td data-answer="undid" contenteditable></td>
 				<td data-answer="undone" contenteditable></td>
 				<td>
-					<button>Check</button>
+					<button class="checkBtn">Check</button>
 				</td>
 			</tr>
 			<tr>
@@ -2238,7 +2238,7 @@
 				<td data-answer="upset" contenteditable></td>
 				<td data-answer="upset" contenteditable></td>
 				<td>
-					<button>Check</button>
+					<button class="checkBtn">Check</button>
 				</td>
 			</tr>
 			<tr>
@@ -2247,7 +2247,7 @@
 				<td data-answer="woke, waked" contenteditable></td>
 				<td data-answer="woken, waked" contenteditable></td>
 				<td>
-					<button>Check</button>
+					<button class="checkBtn">Check</button>
 				</td>
 			</tr>
 			<tr>
@@ -2256,7 +2256,7 @@
 				<td data-answer="waylaid" contenteditable></td>
 				<td data-answer="waylaid" contenteditable></td>
 				<td>
-					<button>Check</button>
+					<button class="checkBtn">Check</button>
 				</td>
 			</tr>
 			<tr>
@@ -2265,7 +2265,7 @@
 				<td data-answer="wore" contenteditable></td>
 				<td data-answer="worn" contenteditable></td>
 				<td>
-					<button>Check</button>
+					<button class="checkBtn">Check</button>
 				</td>
 			</tr>
 			<tr>
@@ -2274,7 +2274,7 @@
 				<td data-answer="wove" contenteditable></td>
 				<td data-answer="woven" contenteditable></td>
 				<td>
-					<button>Check</button>
+					<button class="checkBtn">Check</button>
 				</td>
 			</tr>
 			<tr>
@@ -2283,7 +2283,7 @@
 				<td data-answer="wept" contenteditable></td>
 				<td data-answer="wept" contenteditable></td>
 				<td>
-					<button>Check</button>
+					<button class="checkBtn">Check</button>
 				</td>
 			</tr>
 			<tr>
@@ -2292,7 +2292,7 @@
 				<td data-answer="won" contenteditable></td>
 				<td data-answer="won" contenteditable></td>
 				<td>
-					<button>Check</button>
+					<button class="checkBtn">Check</button>
 				</td>
 			</tr>
 			<tr>
@@ -2301,7 +2301,7 @@
 				<td data-answer="wound" contenteditable></td>
 				<td data-answer="wound" contenteditable></td>
 				<td>
-					<button>Check</button>
+					<button class="checkBtn">Check</button>
 				</td>
 			</tr>
 			<tr>
@@ -2310,7 +2310,7 @@
 				<td data-answer="withdrew" contenteditable></td>
 				<td data-answer="withdrawn" contenteditable></td>
 				<td>
-					<button>Check</button>
+					<button class="checkBtn">Check</button>
 				</td>
 			</tr>
 			<tr>
@@ -2319,7 +2319,7 @@
 				<td data-answer="withheld" contenteditable></td>
 				<td data-answer="withheld" contenteditable></td>
 				<td>
-					<button>Check</button>
+					<button class="checkBtn">Check</button>
 				</td>
 			</tr>
 			<tr>
@@ -2328,7 +2328,7 @@
 				<td data-answer="withstood" contenteditable></td>
 				<td data-answer="withstood" contenteditable></td>
 				<td>
-					<button>Check</button>
+					<button class="checkBtn">Check</button>
 				</td>
 			</tr>
 			<tr>
@@ -2337,7 +2337,7 @@
 				<td data-answer="worked, wrought" contenteditable></td>
 				<td data-answer="worked, wrought" contenteditable></td>
 				<td>
-					<button>Check</button>
+					<button class="checkBtn">Check</button>
 				</td>
 			</tr>
 			<tr>
@@ -2346,7 +2346,7 @@
 				<td data-answer="wrung" contenteditable></td>
 				<td data-answer="wrung" contenteditable></td>
 				<td>
-					<button>Check</button>
+					<button class="checkBtn">Check</button>
 				</td>
 			</tr>
 			<tr>
@@ -2355,7 +2355,7 @@
 				<td data-answer="wrote" contenteditable></td>
 				<td data-answer="written" contenteditable></td>
 				<td>
-					<button>Check</button>
+					<button class="checkBtn">Check</button>
 				</td>
 			</tr>
 		</table>
