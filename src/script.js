@@ -51,3 +51,20 @@ for ( let i = 1; i < document.querySelector( 'table' ).querySelectorAll( 'tr' ).
 {
 	document.querySelector( 'table' ).querySelectorAll( 'tr' )[ i ].querySelector( 'td' ).innerText = i;
 }
+
+
+// A function to show all answers
+function learnAll()
+{
+	for ( let i = 1; i < document.querySelectorAll( 'tr' ).length; i++ )
+	{
+		let targetP = document.querySelectorAll( 'tr' )[ i ].querySelectorAll( 'td' )[ 2 ];
+		let targetPP = document.querySelectorAll( 'tr' )[ i ].querySelectorAll( 'td' )[ 3 ];
+
+		targetP.innerText = targetP.dataset.answer;
+		targetP.style.backgroundColor = 'LightCyan';
+
+		targetPP.innerText = targetPP.dataset.answer;
+		targetPP.style.backgroundColor = 'LightCyan';
+	}
+}
