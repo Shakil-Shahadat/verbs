@@ -34,6 +34,8 @@ for ( let e of document.querySelectorAll( '.checkBtn' ) )
 	});
 }
 
+
+// A function to show the answer
 function showAnswer( that )
 {
 	let targetP = that.parentElement.parentElement.querySelectorAll( 'td' )[ 2 ];
@@ -45,6 +47,7 @@ function showAnswer( that )
 	targetPP.innerText = targetPP.dataset.answer;
 	targetPP.style.backgroundColor = 'LightCyan';
 }
+
 
 // Automatically add numbers to serial columns
 for ( let i = 1; i < document.querySelector( 'table' ).querySelectorAll( 'tr' ).length; i++ )
