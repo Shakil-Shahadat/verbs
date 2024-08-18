@@ -38,14 +38,14 @@ for ( let e of document.querySelectorAll( '.checkBtn' ) )
 // A function to show the answer
 function showAnswer( that )
 {
-	let targetP = that.parentElement.parentElement.querySelectorAll( 'td' )[ 2 ];
-	let targetPP = that.parentElement.parentElement.querySelectorAll( 'td' )[ 3 ];
+	let td1 = that.parentElement.parentElement.querySelectorAll( 'td' )[ 2 ];
+	let td2 = that.parentElement.parentElement.querySelectorAll( 'td' )[ 3 ];
 
-	targetP.innerText = targetP.dataset.answer;
-	targetP.style.backgroundColor = 'LightCyan';
+	td1.innerText = td1.dataset.answer;
+	td1.style.backgroundColor = 'LightCyan';
 
-	targetPP.innerText = targetPP.dataset.answer;
-	targetPP.style.backgroundColor = 'LightCyan';
+	td2.innerText = td2.dataset.answer;
+	td2.style.backgroundColor = 'LightCyan';
 }
 
 
