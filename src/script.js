@@ -9,7 +9,7 @@ for ( let e of document.querySelectorAll( '.checkBtn' ) )
 		let td1 = this.parentElement.parentElement.querySelectorAll( 'td' )[ 2 ];
 		let td2 = this.parentElement.parentElement.querySelectorAll( 'td' )[ 3 ];
 
-		if ( td1.innerText === td1.dataset.answer )
+		if ( td1.innerText.toLowerCase() === td1.dataset.answer )
 		{
 			td1.style.backgroundColor = '#CCFF90';
 		}
@@ -20,7 +20,7 @@ for ( let e of document.querySelectorAll( '.checkBtn' ) )
 			focussed = true;
 		}
 
-		if ( td2.innerText === td2.dataset.answer )
+		if ( td2.innerText.toLowerCase() === td2.dataset.answer )
 		{
 			td2.style.backgroundColor = '#CCFF90';
 		}
@@ -83,7 +83,7 @@ function checkAll()
 		let td1 = document.querySelectorAll( 'tr' )[ i ].querySelectorAll( 'td' )[ 2 ];
 		let td2 = document.querySelectorAll( 'tr' )[ i ].querySelectorAll( 'td' )[ 3 ];
 
-		if ( td1.innerText === td1.dataset.answer )
+		if ( td1.innerText.toLowerCase() === td1.dataset.answer )
 		{
 			td1.style.backgroundColor = '#CCFF90';
 		}
@@ -92,7 +92,7 @@ function checkAll()
 			td1.style.backgroundColor = '#FFCDD2';
 		}
 
-		if ( td2.innerText === td2.dataset.answer )
+		if ( td2.innerText.toLowerCase() === td2.dataset.answer )
 		{
 			td2.style.backgroundColor = '#CCFF90';
 		}
