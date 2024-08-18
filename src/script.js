@@ -4,31 +4,31 @@ for ( let e of document.querySelectorAll( '.checkBtn' ) )
 {
 	e.addEventListener( 'click', function(){
 		let focussed = false;
-		let targetP = this.parentElement.parentElement.querySelectorAll( 'td' )[ 2 ];
-		let targetPP = this.parentElement.parentElement.querySelectorAll( 'td' )[ 3 ];
+		let td1 = this.parentElement.parentElement.querySelectorAll( 'td' )[ 2 ];
+		let td2 = this.parentElement.parentElement.querySelectorAll( 'td' )[ 3 ];
 
-		if ( targetP.innerText === targetP.dataset.answer )
+		if ( td1.innerText === td1.dataset.answer )
 		{
-			targetP.style.backgroundColor = '#CCFF90';
+			td1.style.backgroundColor = '#CCFF90';
 		}
 		else
 		{
-			targetP.style.backgroundColor = '#FFCDD2';
-			targetP.focus();
+			td1.style.backgroundColor = '#FFCDD2';
+			td1.focus();
 			focussed = true;
 		}
 
-		if ( targetPP.innerText === targetPP.dataset.answer )
+		if ( td2.innerText === td2.dataset.answer )
 		{
-			targetPP.style.backgroundColor = '#CCFF90';
+			td2.style.backgroundColor = '#CCFF90';
 		}
 		else
 		{
-			targetPP.style.backgroundColor = '#FFCDD2';
+			td2.style.backgroundColor = '#FFCDD2';
 
 			if ( !focussed )
 			{
-				targetPP.focus();
+				td2.focus();
 			}
 		}
 	});
