@@ -58,23 +58,6 @@ function showAnswer( that )
 }
 
 
-// A function to show all answers
-function learnAll()
-{
-	for ( let i = 1; i < document.querySelectorAll( 'tr' ).length; i++ )
-	{
-		let td1 = document.querySelectorAll( 'tr' )[ i ].querySelectorAll( 'td' )[ 2 ];
-		let td2 = document.querySelectorAll( 'tr' )[ i ].querySelectorAll( 'td' )[ 3 ];
-
-		td1.innerText = td1.dataset.answer;
-		td1.style.backgroundColor = 'LightCyan';
-
-		td2.innerText = td2.dataset.answer;
-		td2.style.backgroundColor = 'LightCyan';
-	}
-}
-
-
 // A function to check all the answers
 function checkAll()
 {
@@ -100,6 +83,23 @@ function checkAll()
 		{
 			td2.style.backgroundColor = '#FFCDD2';
 		}
+	}
+}
+
+
+// A function to show all answers
+function learnAll()
+{
+	for ( let i = 1; i < document.querySelectorAll( 'tr' ).length; i++ )
+	{
+		let td1 = document.querySelectorAll( 'tr' )[ i ].querySelectorAll( 'td' )[ 2 ];
+		let td2 = document.querySelectorAll( 'tr' )[ i ].querySelectorAll( 'td' )[ 3 ];
+
+		td1.innerText = td1.dataset.answer;
+		td1.style.backgroundColor = 'LightCyan';
+
+		td2.innerText = td2.dataset.answer;
+		td2.style.backgroundColor = 'LightCyan';
 	}
 }
 
