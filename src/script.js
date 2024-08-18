@@ -1,5 +1,7 @@
 'use strict';
 
+
+// Add a click event to check buttons to check answers
 for ( let e of document.querySelectorAll( '.checkBtn' ) )
 {
 	e.addEventListener( 'click', function(){
