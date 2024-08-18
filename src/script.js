@@ -1,6 +1,13 @@
 'use strict';
 
 
+// Automatically add numbers to serial columns
+for ( let i = 1; i < document.querySelector( 'table' ).querySelectorAll( 'tr' ).length; i++ )
+{
+	document.querySelector( 'table' ).querySelectorAll( 'tr' )[ i ].querySelector( 'td' ).innerText = i;
+}
+
+
 // Add a click event to check buttons to check answers
 for ( let e of document.querySelectorAll( '.checkBtn' ) )
 {
@@ -48,13 +55,6 @@ function showAnswer( that )
 
 	td2.innerText = td2.dataset.answer;
 	td2.style.backgroundColor = 'LightCyan';
-}
-
-
-// Automatically add numbers to serial columns
-for ( let i = 1; i < document.querySelector( 'table' ).querySelectorAll( 'tr' ).length; i++ )
-{
-	document.querySelector( 'table' ).querySelectorAll( 'tr' )[ i ].querySelector( 'td' ).innerText = i;
 }
 
 
