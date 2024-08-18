@@ -24,7 +24,7 @@ th, td
 /*
 	Zebra Striping Tables
 */
-table tr:nth-child ( odd )
+table tr:nth-child( odd )
 {
 	background: #eee;
 }
