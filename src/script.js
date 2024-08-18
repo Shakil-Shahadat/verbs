@@ -70,6 +70,35 @@ function learnAll()
 }
 
 
+// A function to check all the answers
+function checkAll()
+{
+	for ( let i = 1; i < document.querySelectorAll( 'tr' ).length; i++ )
+	{
+		let targetP = document.querySelectorAll( 'tr' )[ i ].querySelectorAll( 'td' )[ 2 ];
+		let targetPP = document.querySelectorAll( 'tr' )[ i ].querySelectorAll( 'td' )[ 3 ];
+
+		if ( targetP.innerText === targetP.dataset.answer )
+		{
+			targetP.style.backgroundColor = '#CCFF90';
+		}
+		else
+		{
+			targetP.style.backgroundColor = '#FFCDD2';
+		}
+
+		if ( targetPP.innerText === targetPP.dataset.answer )
+		{
+			targetPP.style.backgroundColor = '#CCFF90';
+		}
+		else
+		{
+			targetPP.style.backgroundColor = '#FFCDD2';
+		}
+	}
+}
+
+
 /*
 setTimeout( () => {
 
