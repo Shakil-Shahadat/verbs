@@ -35,7 +35,7 @@ for ( let e of document.querySelectorAll( '.checkBtn' ) )
 		{
 			td2.style.backgroundColor = '#FFCDD2';
 
-			if ( !focussed )
+			if ( focussed === false )
 			{
 				td2.focus();
 			}
