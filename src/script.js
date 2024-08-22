@@ -104,6 +104,20 @@ function learnAll()
 }
 
 
+// A function to clear answers
+function clearAnswer( that )
+{
+	let td1 = that.parentElement.parentElement.querySelectorAll( 'td' )[ 2 ];
+	let td2 = that.parentElement.parentElement.querySelectorAll( 'td' )[ 3 ];
+
+	td1.innerText = '';
+	td1.style.backgroundColor = '';
+
+	td2.innerText = '';
+	td2.style.backgroundColor = '';
+}
+
+
 /*
 setTimeout( () => {
 
