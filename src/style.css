@@ -28,3 +28,8 @@ table tr:nth-child( odd )
 {
 	background-color: #f2f2f2;
 }
+
+tr td:last-of-type
+{
+	width: 180px;
+}
