@@ -104,6 +104,23 @@ function learnAll()
 }
 
 
+// A function to clear all answers
+function clearAll()
+{
+	for ( let i = 1; i < document.querySelectorAll( 'tr' ).length; i++ )
+	{
+		let td1 = document.querySelectorAll( 'tr' )[ i ].querySelectorAll( 'td' )[ 2 ];
+		let td2 = document.querySelectorAll( 'tr' )[ i ].querySelectorAll( 'td' )[ 3 ];
+
+		td1.innerText = '';
+		td1.style.backgroundColor = '';
+
+		td2.innerText = '';
+		td2.style.backgroundColor = '';
+	}
+}
+
+
 // A function to clear answers
 function clearAnswer( that )
 {
