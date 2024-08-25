@@ -162,6 +162,41 @@ function checkAll()
 		{
 			td1.style.backgroundColor = '#CCFF90';
 		}
+		else if ( td1.innerText.includes( ',' ) && td1.dataset.answer.includes( ',' ) )
+		{
+			const words = td1.innerText.toLowerCase().replaceAll( ' ', '' ).split( ',' );
+			const answers = td1.dataset.answer.replaceAll( ' ', '' ).split( ',' );
+
+			// Testing for reverse order answers
+			if ( words[ 0 ] === answers[ 1 ] && words[ 1 ] === answers[ 0 ] )
+			{
+				td1.style.backgroundColor = '#CCFF90';
+			}
+			// Check if only one of them is correct
+			else if ( words[ 0 ] === answers[ 0 ] || words[ 0 ] === answers[ 1 ] || words[ 1 ] === answers[ 0 ] || words[ 1 ] === answers[ 1 ] )
+			{
+				td1.style.backgroundColor = 'yellow';
+			}
+			else
+			{
+				td1.style.backgroundColor = '#FFCDD2';
+			}
+		}
+		// If there is only one input and two answers, then check if any of the answers matches the input
+		else if ( td1.innerText.includes( ',' ) === false && td1.dataset.answer.includes( ',' ) )
+		{
+			const input = td1.innerText.toLowerCase().replaceAll( ' ', '' );
+			const answers = td1.dataset.answer.replaceAll( ' ', '' ).split( ',' );
+
+			if ( input === answers[ 0 ] || input === answers[ 1 ] )
+			{
+				td1.style.backgroundColor = 'yellow';
+			}
+			else
+			{
+				td1.style.backgroundColor = '#FFCDD2';
+			}
+		}
 		else
 		{
 			td1.style.backgroundColor = '#FFCDD2';
