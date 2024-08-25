@@ -53,15 +53,14 @@ for ( let e of document.querySelectorAll( '.checkBtn' ) )
 			if ( input === answers[ 0 ] || input === answers[ 1 ] )
 			{
 				td1.style.backgroundColor = 'yellow';
-				td1.focus();
-				focussed = true;
 			}
 			else
 			{
 				td1.style.backgroundColor = '#FFCDD2';
-				td1.focus();
-				focussed = true;
 			}
+
+			td1.focus();
+			focussed = true;
 		}
 		else
 		{
