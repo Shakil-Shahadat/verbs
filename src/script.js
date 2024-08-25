@@ -56,6 +56,12 @@ for ( let e of document.querySelectorAll( '.checkBtn' ) )
 				td1.focus();
 				focussed = true;
 			}
+			else
+			{
+				td1.style.backgroundColor = '#FFCDD2';
+				td1.focus();
+				focussed = true;
+			}
 		}
 		else
 		{
