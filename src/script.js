@@ -206,6 +206,41 @@ function checkAll()
 		{
 			td2.style.backgroundColor = '#CCFF90';
 		}
+		else if ( td2.innerText.includes( ',' ) && td2.dataset.answer.includes( ',' ) )
+		{
+			const words = td2.innerText.toLowerCase().replaceAll( ' ', '' ).split( ',' );
+			const answers = td2.dataset.answer.replaceAll( ' ', '' ).split( ',' );
+
+			// Testing for reverse order answers
+			if ( words[ 0 ] === answers[ 1 ] && words[ 1 ] === answers[ 0 ] )
+			{
+				td2.style.backgroundColor = '#CCFF90';
+			}
+			// Check if only one of them is correct
+			else if ( words[ 0 ] === answers[ 0 ] || words[ 0 ] === answers[ 1 ] || words[ 1 ] === answers[ 0 ] || words[ 1 ] === answers[ 1 ] )
+			{
+				td2.style.backgroundColor = 'yellow';
+			}
+			else
+			{
+				td2.style.backgroundColor = '#FFCDD2';
+			}
+		}
+		// If there is only one input and two answers, then check if any of the answers matches the input
+		else if ( td2.innerText.includes( ',' ) === false && td2.dataset.answer.includes( ',' ) )
+		{
+			const input = td2.innerText.toLowerCase().replaceAll( ' ', '' );
+			const answers = td2.dataset.answer.replaceAll( ' ', '' ).split( ',' );
+
+			if ( input === answers[ 0 ] || input === answers[ 1 ] )
+			{
+				td2.style.backgroundColor = 'yellow';
+			}
+			else
+			{
+				td2.style.backgroundColor = '#FFCDD2';
+			}
+		}
 		else
 		{
 			td2.style.backgroundColor = '#FFCDD2';
