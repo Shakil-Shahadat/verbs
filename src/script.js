@@ -112,20 +112,15 @@ for ( let e of document.querySelectorAll( '.checkBtn' ) )
 			if ( input === answers[ 0 ] || input === answers[ 1 ] )
 			{
 				td2.style.backgroundColor = 'yellow';
-
-				if ( focussed === false )
-				{
-					td2.focus();
-				}
 			}
 			else
 			{
 				td2.style.backgroundColor = '#FFCDD2';
+			}
 
-				if ( focussed === false )
-				{
-					td2.focus();
-				}
+			if ( focussed === false )
+			{
+				td2.focus();
 			}
 		}
 		else
