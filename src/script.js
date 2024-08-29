@@ -178,6 +178,12 @@ function checkAll()
 			else if ( words[ 0 ] === answers[ 0 ] || words[ 0 ] === answers[ 1 ] || words[ 1 ] === answers[ 0 ] || words[ 1 ] === answers[ 1 ] )
 			{
 				td1.style.backgroundColor = 'yellow';
+
+				if ( focussed === false )
+				{
+					td1.focus();
+					focussed = true;
+				}
 			}
 			else
 			{
@@ -203,12 +209,12 @@ function checkAll()
 			else
 			{
 				td1.style.backgroundColor = '#FFCDD2';
+			}
 
-				if ( focussed === false )
-				{
-					td1.focus();
-					focussed = true;
-				}
+			if ( focussed === false )
+			{
+				td1.focus();
+				focussed = true;
 			}
 		}
 		else
@@ -240,6 +246,12 @@ function checkAll()
 			else if ( words[ 0 ] === answers[ 0 ] || words[ 0 ] === answers[ 1 ] || words[ 1 ] === answers[ 0 ] || words[ 1 ] === answers[ 1 ] )
 			{
 				td2.style.backgroundColor = 'yellow';
+
+				if ( focussed === false )
+				{
+					td2.focus();
+					focussed = true;
+				}
 			}
 			else
 			{
@@ -265,12 +277,12 @@ function checkAll()
 			else
 			{
 				td2.style.backgroundColor = '#FFCDD2';
+			}
 
-				if ( focussed === false )
-				{
-					td2.focus();
-					focussed = true;
-				}
+			if ( focussed === false )
+			{
+				td2.focus();
+				focussed = true;
 			}
 		}
 		else
