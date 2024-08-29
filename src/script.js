@@ -153,6 +153,8 @@ function showAnswer( that )
 // A function to check all the answers
 function checkAll()
 {
+	let focussed = false;
+
 	for ( let i = 1; i < document.querySelectorAll( 'tr' ).length; i++ )
 	{
 		let td1 = document.querySelectorAll( 'tr' )[ i ].querySelectorAll( 'td' )[ 2 ];
@@ -180,6 +182,12 @@ function checkAll()
 			else
 			{
 				td1.style.backgroundColor = '#FFCDD2';
+
+				if ( focussed === false )
+				{
+					td1.focus();
+					focussed = true;
+				}
 			}
 		}
 		// If there is only one input and two answers, then check if any of the answers matches the input
@@ -195,11 +203,23 @@ function checkAll()
 			else
 			{
 				td1.style.backgroundColor = '#FFCDD2';
+
+				if ( focussed === false )
+				{
+					td1.focus();
+					focussed = true;
+				}
 			}
 		}
 		else
 		{
 			td1.style.backgroundColor = '#FFCDD2';
+
+			if ( focussed === false )
+			{
+				td1.focus();
+				focussed = true;
+			}
 		}
 
 		if ( td2.innerText.toLowerCase().replaceAll( ' ', '' ) === td2.dataset.answer.replaceAll( ' ', '' ) )
@@ -224,6 +244,12 @@ function checkAll()
 			else
 			{
 				td2.style.backgroundColor = '#FFCDD2';
+
+				if ( focussed === false )
+				{
+					td2.focus();
+					focussed = true;
+				}
 			}
 		}
 		// If there is only one input and two answers, then check if any of the answers matches the input
@@ -239,11 +265,23 @@ function checkAll()
 			else
 			{
 				td2.style.backgroundColor = '#FFCDD2';
+
+				if ( focussed === false )
+				{
+					td2.focus();
+					focussed = true;
+				}
 			}
 		}
 		else
 		{
 			td2.style.backgroundColor = '#FFCDD2';
+
+			if ( focussed === false )
+			{
+				td2.focus();
+				focussed = true;
+			}
 		}
 	}
 }
