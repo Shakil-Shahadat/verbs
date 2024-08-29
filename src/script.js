@@ -155,6 +155,10 @@ function checkAll()
 {
 	let focussed = false;
 
+	let correctAns = 0; // A variable to store correct answers
+	let partialAns = 0; // A variable to store partially correct answers
+	let wrongAns = 0; // A variable to store wrong answers
+
 	for ( let i = 1; i < document.querySelectorAll( 'tr' ).length; i++ )
 	{
 		let td1 = document.querySelectorAll( 'tr' )[ i ].querySelectorAll( 'td' )[ 2 ];
@@ -163,6 +167,7 @@ function checkAll()
 		if ( td1.innerText.toLowerCase().replaceAll( ' ', '' ) === td1.dataset.answer.replaceAll( ' ', '' ) )
 		{
 			td1.style.backgroundColor = '#CCFF90';
+			correctAns++;
 		}
 		else if ( td1.innerText.includes( ',' ) && td1.dataset.answer.includes( ',' ) )
 		{
@@ -173,11 +178,13 @@ function checkAll()
 			if ( words[ 0 ] === answers[ 1 ] && words[ 1 ] === answers[ 0 ] )
 			{
 				td1.style.backgroundColor = '#CCFF90';
+				correctAns++;
 			}
 			// Check if only one of them is correct
 			else if ( words[ 0 ] === answers[ 0 ] || words[ 0 ] === answers[ 1 ] || words[ 1 ] === answers[ 0 ] || words[ 1 ] === answers[ 1 ] )
 			{
 				td1.style.backgroundColor = 'yellow';
+				partialAns++;
 
 				if ( focussed === false )
 				{
@@ -188,6 +195,7 @@ function checkAll()
 			else
 			{
 				td1.style.backgroundColor = '#FFCDD2';
+				wrongAns++;
 
 				if ( focussed === false )
 				{
@@ -205,10 +213,12 @@ function checkAll()
 			if ( input === answers[ 0 ] || input === answers[ 1 ] )
 			{
 				td1.style.backgroundColor = 'yellow';
+				partialAns++;
 			}
 			else
 			{
 				td1.style.backgroundColor = '#FFCDD2';
+				wrongAns++;
 			}
 
 			if ( focussed === false )
@@ -220,6 +230,7 @@ function checkAll()
 		else
 		{
 			td1.style.backgroundColor = '#FFCDD2';
+			wrongAns++;
 
 			if ( focussed === false )
 			{
@@ -231,6 +242,7 @@ function checkAll()
 		if ( td2.innerText.toLowerCase().replaceAll( ' ', '' ) === td2.dataset.answer.replaceAll( ' ', '' ) )
 		{
 			td2.style.backgroundColor = '#CCFF90';
+			correctAns++;
 		}
 		else if ( td2.innerText.includes( ',' ) && td2.dataset.answer.includes( ',' ) )
 		{
@@ -241,11 +253,13 @@ function checkAll()
 			if ( words[ 0 ] === answers[ 1 ] && words[ 1 ] === answers[ 0 ] )
 			{
 				td2.style.backgroundColor = '#CCFF90';
+				correctAns++;
 			}
 			// Check if only one of them is correct
 			else if ( words[ 0 ] === answers[ 0 ] || words[ 0 ] === answers[ 1 ] || words[ 1 ] === answers[ 0 ] || words[ 1 ] === answers[ 1 ] )
 			{
 				td2.style.backgroundColor = 'yellow';
+				partialAns++;
 
 				if ( focussed === false )
 				{
@@ -256,6 +270,7 @@ function checkAll()
 			else
 			{
 				td2.style.backgroundColor = '#FFCDD2';
+				wrongAns++;
 
 				if ( focussed === false )
 				{
@@ -273,10 +288,12 @@ function checkAll()
 			if ( input === answers[ 0 ] || input === answers[ 1 ] )
 			{
 				td2.style.backgroundColor = 'yellow';
+				partialAns++;
 			}
 			else
 			{
 				td2.style.backgroundColor = '#FFCDD2';
+				wrongAns++;
 			}
 
 			if ( focussed === false )
@@ -288,6 +305,7 @@ function checkAll()
 		else
 		{
 			td2.style.backgroundColor = '#FFCDD2';
+			wrongAns++;
 
 			if ( focussed === false )
 			{
@@ -296,6 +314,8 @@ function checkAll()
 			}
 		}
 	}
+
+	alert( 'Score\nCorrect: ' + correctAns + ', Partial: ' + partialAns + ', Wrong: ' + wrongAns );
 }
 
 
