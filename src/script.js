@@ -338,10 +338,10 @@ function learnAll()
 		let td1 = document.querySelectorAll( 'tr' )[ i ].querySelectorAll( 'td' )[ 2 ];
 		let td2 = document.querySelectorAll( 'tr' )[ i ].querySelectorAll( 'td' )[ 3 ];
 
-		td1.innerText = td1.dataset.answer;
+		td1.innerText = toTitleCase( td1.dataset.answer );
 		td1.style.backgroundColor = 'LightCyan';
 
-		td2.innerText = td2.dataset.answer;
+		td2.innerText = toTitleCase( td2.dataset.answer );
 		td2.style.backgroundColor = 'LightCyan';
 	}
 }
