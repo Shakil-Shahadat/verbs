@@ -150,6 +150,17 @@ function showAnswer( that )
 }
 
 
+// A function to convert strings into title case
+function toTitleCase( str )
+{
+	return str.replace(
+		/\w\S*/g,
+		text => text.charAt( 0 ).toUpperCase() + text.substring( 1 ).toLowerCase()
+	);
+}
+// Source: https://stackoverflow.com/questions/196972/convert-string-to-title-case-with-javascript
+
+
 // A function to check all the answers
 function checkAll()
 {
