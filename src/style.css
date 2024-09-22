@@ -9,6 +9,11 @@ body
 	margin-top: 20px;
 }
 
+.timerDiv
+{
+	float: right;
+}
+
 table
 {
 	border-collapse: collapse;

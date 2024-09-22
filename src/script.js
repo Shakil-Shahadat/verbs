@@ -393,3 +393,89 @@ setTimeout( () => {
 
 }, 1000 );
 */
+
+
+// Variables for timer management
+let timerStat = false;
+let secCounter;
+
+// A function to toggle the timer
+function toggleTimer()
+{
+	if ( timerStat === false )
+	{
+		// If the timer is off, turn it on
+		timerStat = true;
+
+		// Change the text of the timer start button
+		document.querySelector( '.timerButton' ).innerText = 'Pause Timer';
+
+		// Turn on the timer
+		secCounter = setInterval( updateTimer, 1000 );
+	}
+	else
+	{
+		// If the timer is on, turn it off
+		timerStat = false;
+
+		// Change the text of the timer start button
+		document.querySelector( '.timerButton' ).innerText = 'Start Timer';
+
+		// Turn off the timer
+		clearInterval( secCounter );
+	}
+}
+
+// A function to update the time of the timer
+function updateTimer()
+{
+	// Get the values of the second and the minute
+	let sec = parseInt( document.querySelector( '.sec' ).innerText );
+	let min = parseInt( document.querySelector( '.min' ).innerText );
+
+	if ( sec < 59 )
+	{
+		// Only increase the value of second
+		if ( sec < 9 )
+		{
+			// If the value of second is single digit, pad it with a zero
+			document.querySelector( '.sec' ).innerText = '0' + ++sec;
+		}
+		else
+		{
+			document.querySelector( '.sec' ).innerText = ++sec;
+		}
+	}
+	else
+	{
+		// Reset the value of second
+		document.querySelector( '.sec' ).innerText = '00';
+
+		// Increase the value of minute
+		if ( min < 9 )
+		{
+			// If the value of minute is single digit, pad it with a zero
+			document.querySelector( '.min' ).innerText = '0' + ++min;
+		}
+		else
+		{
+			document.querySelector( '.min' ).innerText = ++min;
+		}
+	}
+}
+
+// A function to reset the timer
+function resetTimer()
+{
+	// Turn off the timer
+	clearInterval( secCounter );
+
+	timerStat = false;
+
+	// Change the text of the timer start button
+	document.querySelector( '.timerButton' ).innerText = 'Start Timer';
+
+	// Reset the value of second and minute
+	document.querySelector( '.sec' ).innerText = '00';
+	document.querySelector( '.min' ).innerText = '00';
+}

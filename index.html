@@ -15,7 +15,18 @@
 
 		<button onclick="learnAll()">Learn All</button>
 
-		<button onclick="clearAll()">Clear All</button><br><br>
+		<button onclick="clearAll()">Clear All</button>
+
+
+		<div class="timerDiv">
+			<button class="timerButton" onclick="toggleTimer()">Start Timer</button>
+
+			<span class="timer">
+				<span class="min">00</span> : <span class="sec">00</span>
+			</span>
+
+			<button onclick="resetTimer()">Reset Timer</button>
+		</div><br><br>
 
 		<table spellcheck="false">
 			<tr>
