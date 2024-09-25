@@ -136,6 +136,142 @@ for ( let e of document.querySelectorAll( '.checkBtn' ) )
 }
 
 
+// A function to check a single answer
+function checkAnswer( that )
+{
+	let td1 = that.parentElement.parentElement.querySelectorAll( 'td' )[ 2 ];
+	let td2 = that.parentElement.parentElement.querySelectorAll( 'td' )[ 3 ];
+
+	// A variable to keep the status of if the focus has been set
+	let focussed = false;
+
+	for ( let e of [ td1, td2 ] )
+	{
+		// Find if the user answer matches the correct answer
+		let matchedResult = matchAnswer( e.innerText, e.dataset.answer ); // Will return correct, partial or none
+
+		// Set background color and focus based on the matchedResult
+		if ( matchedResult === 'correct' )
+		{
+			e.style.backgroundColor = '#CCFF90'; // Green color
+		}
+		else if ( matchedResult === 'partial' )
+		{
+			e.style.backgroundColor = 'yellow';
+
+			// Set focus only if it hasn't been set yet
+			if ( focussed === false )
+			{
+				e.focus();
+				focussed = true;
+			}
+		}
+		else if ( matchedResult === 'none' )
+		{
+			e.style.backgroundColor = '#FFCDD2'; // Red color
+
+			// Set focus only if it hasn't been set yet
+			if ( focussed === false )
+			{
+				e.focus();
+				focussed = true;
+			}
+		}
+	} // End of for loop
+}
+
+
+// A function to match user answer and correct answer
+function matchAnswer( userAnswer, correctAnswer )
+{
+	// Convert to lower case and replace all spaces
+	userAnswer = userAnswer.toLowerCase().replaceAll( ' ', '' );
+
+	// Replace all spaces
+	correctAnswer = correctAnswer.replaceAll( ' ', '' );
+
+	// Find out if userAnswer has multiple parts
+	let userAnswerMultiPart = userAnswer.includes( ',' );
+
+	// Find out if correctAnswer has multiple parts
+	let correctAnswerMultiPart = correctAnswer.includes( ',' );
+
+	// If both answer has multiple parts
+	if ( userAnswerMultiPart === true && correctAnswerMultiPart === true )
+	{
+		let userAnswerParts = userAnswer.split( ',' );
+		let correctAnswerParts = correctAnswer.split( ',' );
+		let rightAns = 0;
+
+		if ( userAnswerParts[ 0 ] === correctAnswerParts [ 0 ] || userAnswerParts[ 0 ] === correctAnswerParts [ 1 ] )
+		{
+			rightAns++;
+		}
+
+		if ( userAnswerParts[ 1 ] === correctAnswerParts [ 0 ] || userAnswerParts[ 1 ] === correctAnswerParts [ 1 ] )
+		{
+			rightAns++;
+		}
+
+		if ( rightAns === 0 )
+		{
+			// If none of the user answers matches the correct answers, return none
+			return 'none';
+		}
+		else if ( rightAns === 1 )
+		{
+			// If only one answer matches, return partial
+			return 'partial';
+		}
+		else if ( rightAns === 2 )
+		{
+			// If both answer matches, return correct
+			return 'correct';
+		}
+	}
+	// If userAnswer has multiple parts but correctAnswer has single part
+	else if ( userAnswerMultiPart === true && correctAnswerMultiPart === false )
+	{
+		let userAnswerParts = userAnswer.split( ',' );
+
+		if ( userAnswerParts[ 0 ] === correctAnswer || userAnswerParts[ 1 ] === correctAnswer )
+		{
+			return 'partial'; // It's partial, cause the user answer has one wrong answer
+		}
+		else
+		{
+			return 'none';
+		}
+	}
+	// If userAnswer has single part but correctAnswer has multiple parts
+	else if ( userAnswerMultiPart === false && correctAnswerMultiPart === true )
+	{
+		let correctAnswerParts = correctAnswer.split( ',' );
+
+		if ( userAnswer === correctAnswerParts[ 0 ] || userAnswer === correctAnswerParts[ 1 ] )
+		{
+			return 'partial';
+		}
+		else
+		{
+			return 'none';
+		}
+	}
+	// If both answer has a single part
+	else if ( userAnswerMultiPart === false && correctAnswerMultiPart === false )
+	{
+		if ( userAnswer === correctAnswer )
+		{
+			return 'correct';
+		}
+		else
+		{
+			return 'none';
+		}
+	}
+} // End of matchAnswer()
+
+
 // A function to show the answer
 function showAnswer( that )
 {
