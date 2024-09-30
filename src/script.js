@@ -50,7 +50,7 @@ function checkAnswer( that )
 			}
 		}
 	} // End of for loop
-}
+} // End of checkAnswer()
 
 
 // A function to match user answer and correct answer
@@ -155,7 +155,7 @@ function showAnswer( that )
 
 	td2.innerText = toTitleCase( td2.dataset.answer );
 	td2.style.backgroundColor = 'LightCyan';
-}
+} // End of showAnswer()
 
 
 // A function to convert strings into title case
@@ -165,7 +165,7 @@ function toTitleCase( str )
 		/\w\S*/g,
 		text => text.charAt( 0 ).toUpperCase() + text.substring( 1 ).toLowerCase()
 	);
-}
+} // End of toTitleCase()
 // Source: https://stackoverflow.com/questions/196972/convert-string-to-title-case-with-javascript
 
 
@@ -335,7 +335,7 @@ function checkAll()
 	}
 
 	alert( 'Score\nCorrect: ' + correctAns + ', Partial: ' + partialAns + ', Wrong: ' + wrongAns );
-}
+} // End of checkAll()
 
 
 // A function to show all answers
@@ -352,7 +352,7 @@ function learnAll()
 		td2.innerText = toTitleCase( td2.dataset.answer );
 		td2.style.backgroundColor = 'LightCyan';
 	}
-}
+} // End of learnAll()
 
 
 // A function to clear all answers
@@ -369,7 +369,7 @@ function clearAll()
 		td2.innerText = '';
 		td2.style.backgroundColor = '';
 	}
-}
+} // End of clearAll()
 
 
 // A function to clear answers
@@ -383,7 +383,7 @@ function clearAnswer( that )
 
 	td2.innerText = '';
 	td2.style.backgroundColor = '';
-}
+} // End of clearAnswer()
 
 
 /*
@@ -432,7 +432,7 @@ function toggleTimer()
 		// Turn off the timer
 		clearInterval( secCounter );
 	}
-}
+} // End of toggleTimer()
 
 // A function to update the time of the timer
 function updateTimer()
@@ -470,7 +470,7 @@ function updateTimer()
 			document.querySelector( '.min' ).innerText = ++min;
 		}
 	}
-}
+} // End of updateTimer()
 
 // A function to reset the timer
 function resetTimer()
@@ -486,4 +486,4 @@ function resetTimer()
 	// Reset the value of second and minute
 	document.querySelector( '.sec' ).innerText = '00';
 	document.querySelector( '.min' ).innerText = '00';
-}
+} // End of resetTimer()
