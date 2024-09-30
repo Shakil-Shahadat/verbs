@@ -169,6 +169,20 @@ function toTitleCase( str )
 // Source: https://stackoverflow.com/questions/196972/convert-string-to-title-case-with-javascript
 
 
+// A function to clear answers
+function clearAnswer( that )
+{
+	let td1 = that.parentElement.parentElement.querySelectorAll( 'td' )[ 2 ];
+	let td2 = that.parentElement.parentElement.querySelectorAll( 'td' )[ 3 ];
+
+	td1.innerText = '';
+	td1.style.backgroundColor = '';
+
+	td2.innerText = '';
+	td2.style.backgroundColor = '';
+} // End of clearAnswer()
+
+
 // A function to check all the answers
 function checkAll()
 {
@@ -370,20 +384,6 @@ function clearAll()
 		td2.style.backgroundColor = '';
 	}
 } // End of clearAll()
-
-
-// A function to clear answers
-function clearAnswer( that )
-{
-	let td1 = that.parentElement.parentElement.querySelectorAll( 'td' )[ 2 ];
-	let td2 = that.parentElement.parentElement.querySelectorAll( 'td' )[ 3 ];
-
-	td1.innerText = '';
-	td1.style.backgroundColor = '';
-
-	td2.innerText = '';
-	td2.style.backgroundColor = '';
-} // End of clearAnswer()
 
 
 /*
