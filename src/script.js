@@ -1,13 +1,6 @@
 'use strict';
 
 
-// Automatically add numbers to serial columns
-for ( let i = 1; i < document.querySelector( 'table' ).querySelectorAll( 'tr' ).length; i++ )
-{
-	document.querySelector( 'table' ).querySelectorAll( 'tr' )[ i ].querySelector( 'td' ).innerText = i;
-}
-
-
 // A function to check a single answer
 function checkAnswer( that )
 {
