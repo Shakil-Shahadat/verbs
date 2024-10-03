@@ -386,23 +386,6 @@ function clearAll()
 } // End of clearAll()
 
 
-/*
-setTimeout( () => {
-
-	let verbs = '';
-	for ( let i = 1; i < document.querySelectorAll( 'tr' ).length; i++ )
-	{
-		verbs += document.querySelectorAll( 'tr' )[ i ].querySelectorAll( 'td' )[ 1 ].innerText + '/';
-		verbs += document.querySelectorAll( 'tr' )[ i ].querySelectorAll( 'td' )[ 2 ].dataset.answer + '/';
-		verbs += document.querySelectorAll( 'tr' )[ i ].querySelectorAll( 'td' )[ 3 ].dataset.answer + ';';
-	}
-
-	console.log( verbs );
-
-}, 1000 );
-*/
-
-
 // Variables for timer management
 let timerStat = false;
 let secCounter;
