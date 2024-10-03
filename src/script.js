@@ -1,6 +1,35 @@
 'use strict';
 
 
+// All verbs and their other forms
+const verbs = 'Abide/abode, abided/abided;Arise/arose/arisen;Awake/awoke/awaked, awoken;Be/was/been;Bear */bore/borne;Beat */beat/beaten;Become/became/become;Befall/befell/befallen;Beget/begot/begotten;Begin */began/begun;Behold/beheld/beheld;Bend */bent/bent;Bereave/bereaved, bereft/bereaved, bereft;Beseech/besought/besought;Beset/beset/beset;Bet/bet, betted/bet, betted;Betake/betook/betaken;Bethink/bethought/bethought;Bid */bade, bid/bidden, bid;Bind */bound/bound;Bite */bit/bitten, bit;Bleed */bled/bled;Blend/blended, blent/blended, blent;Bless/blessed, blest/blessed, blest;Blow */blew/blown;Break */broke/broken;Breed/bred/bred;Bring */brought/brought;Broadcast/broadcast, broadcasted/broadcast, broadcasted;Build */built/built;Burn */burnt, burned/burnt, burned;Burst */burst/burst;Buy */bought/bought;Cast/cast/cast;Catch */caught/caught;Chide/chided, chid/chided, chidden;Choose */chose/chosen;Cleave/clove, cleft/cloven, cleft;Cling/clung/clung;Clothe/clothed, clad/clothed, clad;Come */came/come;Cost */cost/cost;Creep */crept/crept;Crow/crowed, crew/crowed;Cut */cut/cut;Dare/dared, durst/dared;Deal */dealt/dealt;Dig */dug/dug;Dive/dived, dove/dived;Do */did/done;Draw */drew/drawn;Dream */dreamt, dreamed/dreamt, dreamed;Drink */drank/drunk;Drive */drove/driven;Dwell */dwelt/dwelt;Eat */ate/eaten;Fall */fell/fallen;Feed */fed/fed;Feel */felt/felt;Fight */fought/fought;Find */found/found;Flee */fled/fled;Fling */flung/flung;Fly */flew/flown;Forbear/forbore/forborne;Forbid/forbade, forbad/forbidden;Forecast/forecast, forcasted/forecast, forcasted;Foreknow/foreknew/foreknown;Foresee/foresaw/foreseen;Foretell/foretold/foretold;Forget */forgot/forgotten;Forgive/forgave/forgiven;Forsake/forsook/forsaken;Forswear/forswore/forsworn;Freeze */froze/frozen;Gainsay/gainsaid/gainsaid;Get */got/got, gotten;Gild/gilded, gilt/gilded;Gird/girded, girt/girded, girt;Give */gave/given;Go */went/gone;Grave/graved/graven, graved;Grind */ground/ground;Grow */grew/grown;Hamstring/hamstringed, hamstrung/hamstringed, hamstrung;Hang */hung, hanged/hung, hanged;Have/had/had;Hear */heard/heard;Heave/heaved, hove/heaved, hove;Hew/hewed/hewed, hewn;Hide */hid/hidden;Hit */hit/hit;Hold */held/held;Hurt */hurt/hurt;Inlay/inlaid/inlaid;Keep */kept/kept;Kneel */knelt/knelt;Knit/knitted, knit/knitted, knit;Know */knew/known;Lade/laded/laden;Lay */laid/laid;Lead */led/led;Lean/leant, leaned/leant, leaned;Leap/leapt, leaped/leapt, leaped;Learn/learnt, learned/learnt, learned;Leave */left/left;Lend */lent/lent;Let */let/let;Lie */lay/lain;Light */lit, lighted/lit, lighted;Lose */lost/lost;Make */made/made;Mean */meant/meant;Meet */met/met;Melt/melted/melted, molten;Miscast/miscast/miscast;Misdeal/misdealt/misdealt;Misgive/misgave/misgiven;Mislay/mislaid/mislaid;Mislead/misled/misled;Misspell/misspelt/misspelt;Misspend/misspent/misspent;Mistake/mistook/mistaken;Misunderstand/misunderstood/misunderstood;Mow/mowed/mown, mowed;Outbid/outbid/outbid;Outdo/outdid/outdone;Outgo/outwent/outgone;Outgrow/outgrew/outgrown;Outride/outrode/outridden;Outrun/outran/outrun;Outshine/outshone/outshone;Overbear/overbore/overborne;Overcast/overcast/overcast;Overcome/overcame/overcome;Overdo/overdid/overdone;Overhang/overhung/overhung;Overhear/overheard/overheard;Overlay/overlaid/overlaid;Overleap/overleapt, overleaped/overleapt, overleaped;Overlie/overlay/overlain;Override/overrode/overridden;Overrun/overran/overrun;Oversee/oversaw/overseen;Overshoot/overshot/overshot;Oversleep/overslept/overslept;Overtake/overtook/overtaken;Overthrow/overthrew/overthrown;Partake/partook/partaken;Pay */paid/paid;Prove/proved/proved, proven;Put */put/put;Quit/quitted, quit/quitted, quit;Read */read/read;Rebind/rebound/rebound;Rebuild/rebuilt/rebuilt;Recast/recast/recast;Redo/redid/redone;Relay/relaid/relaid;Remake/remade/remade;Rend/rent/rent;Repay/repaid/repaid;Rerun/reran/rerun;Reset/reset/reset;Retell/retold/retold;Rewrite/rewrote/rewritten;Rid/rid, ridded/rid, ridded;Ride */rode/ridden;Ring */rang/rung;Rise */rose/risen;Rive/rived/riven, rived;Run */ran/run;Saw/sawed/sawn, sawed;Say */said/said;See */saw/seen;Seek */sought/sought;Sell */sold/sold;Send */sent/sent;Set */set/set;Sew */sewed/sewn, sewed;Shake */shook/shaken;Shave/shaved/shaved, shaven;Shear/sheared/sheared, shorn;Shed */shed/shed;Shine */shone/shone;Shoe/shod/shod;Shoot */shot/shot;Show */showed/shown, showed;Shrink */shrank, shrunk/shrunk, shrunken;Shrive/shrove, shrived/shriven, shrived;Shut */shut/shut;Sing */sang/sung;Sink */sank/sunk, sunken;Sit */sat/sat;Slay/slew/slain;Sleep */slept/slept;Slide/slid/slid;Sling/slung/slung;Slink/slunk/slunk;Slit/slit/slit;Smell */smelt, smelled/smelt, smelled;Smite/smote/smitten;Sow */sowed/sown, sowed;Speak */spoke/spoken;Speed/sped, speeded/sped, speeded;Spell */spelt, spelled/spelt, spelled;Spend */spent/spent;Spill/spilt, spilled/spilt, spilled;Spin/spun, span/spun;Spit/spat/spat;Split/split/split;Spoil/spoilt, spoiled/spoilt, spoiled;Spread */spread/spread;Spring */sprang/sprung;Stand */stood/stood;Stave/staved, stove/staved, stove;Steal */stole/stolen;Stick */stuck/stuck;Sting/stung/stung;Stink/stank, stunk/stunk;Strew/strewed/strewn, strewed;Stride/strode/stridden;Strike */struck/struck, stricken;String/strung/strung;Strive */strove/striven;Swear */swore/sworn;Sweep */swept/swept;Swell/swelled/swollen, swelled;Swim */swam/swum;Swing */swung/swung;Take */took/taken;Teach */taught/taught;Tear */tore/torn;Tell */told/told;Think */thought/thought;Thrive/throve, thrived/thriven, thrived;Throw */threw/thrown;Thurst */thurst/thurst;Tread */trod/trodden, trod;Unbend/unbent/unbent;Unbind/unbound/unbound;Underbid/underbid/underbid;Undergo/underwent/undergone;Understand/understood/understood;Undertake/undertook/undertaken;Undo/undid/undone;Upset/upset/upset;Wake */woke, waked/woken, waked;Waylay/waylaid/waylaid;Wear */wore/worn;Weave/wove/woven;Weep */wept/wept;Win */won/won;Wind */wound/wound;Withdraw/withdrew/withdrawn;Withhold/withheld/withheld;Withstand/withstood/withstood;Work/worked, wrought/worked, wrought;Wring/wrung/wrung;Write */wrote/written';
+
+// Prepare table rows
+let tableRows = '';
+let rowCounter = 1;
+const words = verbs.split( ';' ); // Convert verbs list into an array
+
+for ( let e of words )
+{
+	const seg = e.split( '/' );
+	tableRows += `
+			<tr>
+				<td>${ rowCounter++ }</td>
+				<td>${ seg[ 0 ] }</td>
+				<td data-answer="${ seg[ 1 ] }" contenteditable${ rowCounter === 2 ? ' autofocus' : '' }></td>
+				<td data-answer="${ seg[ 2 ] }" contenteditable></td>
+				<td>
+					<button onclick="checkAnswer( this )">Check</button>
+					<button onclick="showAnswer( this )">Learn</button>
+					<button onclick="clearAnswer( this )">Clear</button>
+				</td>
+			</tr>`;
+}
+
+// Add table rows to the table
+document.querySelector( 'tbody' ).insertAdjacentHTML( 'beforeend', tableRows );
+
+
 // A function to check a single answer
 function checkAnswer( that )
 {
