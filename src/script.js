@@ -219,156 +219,43 @@ function checkAll()
 		let td1 = document.querySelectorAll( 'tr' )[ i ].querySelectorAll( 'td' )[ 2 ];
 		let td2 = document.querySelectorAll( 'tr' )[ i ].querySelectorAll( 'td' )[ 3 ];
 
-		if ( td1.innerText.toLowerCase().replaceAll( ' ', '' ) === td1.dataset.answer.replaceAll( ' ', '' ) )
+		for ( let e of [ td1, td2 ] )
 		{
-			td1.style.backgroundColor = '#CCFF90';
-			correctAns++;
-		}
-		else if ( td1.innerText.includes( ',' ) && td1.dataset.answer.includes( ',' ) )
-		{
-			const words = td1.innerText.toLowerCase().replaceAll( ' ', '' ).split( ',' );
-			const answers = td1.dataset.answer.replaceAll( ' ', '' ).split( ',' );
+			// Find if the user answer matches the correct answer
+			let matchedResult = matchAnswer( e.innerText, e.dataset.answer ); // Will return correct, partial or none
 
-			// Testing for reverse order answers
-			if ( words[ 0 ] === answers[ 1 ] && words[ 1 ] === answers[ 0 ] )
+			// Set background color and focus based on the matchedResult
+			if ( matchedResult === 'correct' )
 			{
-				td1.style.backgroundColor = '#CCFF90';
+				e.style.backgroundColor = '#CCFF90'; // Green color
 				correctAns++;
 			}
-			// Check if only one of them is correct
-			else if ( words[ 0 ] === answers[ 0 ] || words[ 0 ] === answers[ 1 ] || words[ 1 ] === answers[ 0 ] || words[ 1 ] === answers[ 1 ] )
+			else if ( matchedResult === 'partial' )
 			{
-				td1.style.backgroundColor = 'yellow';
+				e.style.backgroundColor = 'yellow';
 				partialAns++;
 
+				// Set focus only if it hasn't been set yet
 				if ( focussed === false )
 				{
-					td1.focus();
+					e.focus();
 					focussed = true;
 				}
 			}
-			else
+			else if ( matchedResult === 'none' )
 			{
-				td1.style.backgroundColor = '#FFCDD2';
+				e.style.backgroundColor = '#FFCDD2'; // Red color
 				wrongAns++;
 
+				// Set focus only if it hasn't been set yet
 				if ( focussed === false )
 				{
-					td1.focus();
+					e.focus();
 					focussed = true;
 				}
 			}
-		}
-		// If there is only one input and two answers, then check if any of the answers matches the input
-		else if ( td1.innerText.includes( ',' ) === false && td1.dataset.answer.includes( ',' ) )
-		{
-			const input = td1.innerText.toLowerCase().replaceAll( ' ', '' );
-			const answers = td1.dataset.answer.replaceAll( ' ', '' ).split( ',' );
-
-			if ( input === answers[ 0 ] || input === answers[ 1 ] )
-			{
-				td1.style.backgroundColor = 'yellow';
-				partialAns++;
-			}
-			else
-			{
-				td1.style.backgroundColor = '#FFCDD2';
-				wrongAns++;
-			}
-
-			if ( focussed === false )
-			{
-				td1.focus();
-				focussed = true;
-			}
-		}
-		else
-		{
-			td1.style.backgroundColor = '#FFCDD2';
-			wrongAns++;
-
-			if ( focussed === false )
-			{
-				td1.focus();
-				focussed = true;
-			}
-		}
-
-		if ( td2.innerText.toLowerCase().replaceAll( ' ', '' ) === td2.dataset.answer.replaceAll( ' ', '' ) )
-		{
-			td2.style.backgroundColor = '#CCFF90';
-			correctAns++;
-		}
-		else if ( td2.innerText.includes( ',' ) && td2.dataset.answer.includes( ',' ) )
-		{
-			const words = td2.innerText.toLowerCase().replaceAll( ' ', '' ).split( ',' );
-			const answers = td2.dataset.answer.replaceAll( ' ', '' ).split( ',' );
-
-			// Testing for reverse order answers
-			if ( words[ 0 ] === answers[ 1 ] && words[ 1 ] === answers[ 0 ] )
-			{
-				td2.style.backgroundColor = '#CCFF90';
-				correctAns++;
-			}
-			// Check if only one of them is correct
-			else if ( words[ 0 ] === answers[ 0 ] || words[ 0 ] === answers[ 1 ] || words[ 1 ] === answers[ 0 ] || words[ 1 ] === answers[ 1 ] )
-			{
-				td2.style.backgroundColor = 'yellow';
-				partialAns++;
-
-				if ( focussed === false )
-				{
-					td2.focus();
-					focussed = true;
-				}
-			}
-			else
-			{
-				td2.style.backgroundColor = '#FFCDD2';
-				wrongAns++;
-
-				if ( focussed === false )
-				{
-					td2.focus();
-					focussed = true;
-				}
-			}
-		}
-		// If there is only one input and two answers, then check if any of the answers matches the input
-		else if ( td2.innerText.includes( ',' ) === false && td2.dataset.answer.includes( ',' ) )
-		{
-			const input = td2.innerText.toLowerCase().replaceAll( ' ', '' );
-			const answers = td2.dataset.answer.replaceAll( ' ', '' ).split( ',' );
-
-			if ( input === answers[ 0 ] || input === answers[ 1 ] )
-			{
-				td2.style.backgroundColor = 'yellow';
-				partialAns++;
-			}
-			else
-			{
-				td2.style.backgroundColor = '#FFCDD2';
-				wrongAns++;
-			}
-
-			if ( focussed === false )
-			{
-				td2.focus();
-				focussed = true;
-			}
-		}
-		else
-		{
-			td2.style.backgroundColor = '#FFCDD2';
-			wrongAns++;
-
-			if ( focussed === false )
-			{
-				td2.focus();
-				focussed = true;
-			}
-		}
-	}
+		} // End of for loop
+	} // End of first for loop
 
 	alert( 'Score\nCorrect: ' + correctAns + ', Partial: ' + partialAns + ', Wrong: ' + wrongAns );
 } // End of checkAll()
