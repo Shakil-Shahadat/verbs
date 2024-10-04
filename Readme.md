@@ -1,3 +1,3 @@
 # What is this?
 
-Test your irregular verbs knowledge.
+Learn and test your irregular verbs knowledge.
