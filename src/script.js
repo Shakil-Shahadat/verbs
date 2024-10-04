@@ -257,7 +257,10 @@ function checkAll()
 		} // End of for loop
 	} // End of first for loop
 
-	alert( 'Score\nCorrect: ' + correctAns + ', Partial: ' + partialAns + ', Wrong: ' + wrongAns );
+	setTimeout( () => {
+		alert( 'Score\nCorrect: ' + correctAns + ', Partial: ' + partialAns + ', Wrong: ' + wrongAns );
+	}, 50 );
+
 } // End of checkAll()
 
 
