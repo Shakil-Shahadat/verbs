@@ -310,8 +310,8 @@ function toggleTimer()
 		// If the timer is off, turn it on
 		timerStat = true;
 
-		// Change the text of the timer start button
-		document.querySelector( '.timerButton' ).innerText = 'Pause Timer';
+		// Change start button icon
+		document.querySelector( '.timerButton' ).innerHTML = '<img src="src/pause-fill.svg" title="Pause Timer">';
 
 		// Turn on the timer
 		secCounter = setInterval( updateTimer, 1000 );
@@ -321,8 +321,8 @@ function toggleTimer()
 		// If the timer is on, turn it off
 		timerStat = false;
 
-		// Change the text of the timer start button
-		document.querySelector( '.timerButton' ).innerText = 'Start Timer';
+		// Change start button icon
+		document.querySelector( '.timerButton' ).innerHTML = '<img src="src/play-fill.svg" title="Play Timer">';
 
 		// Turn off the timer
 		clearInterval( secCounter );
@@ -375,8 +375,8 @@ function resetTimer()
 
 	timerStat = false;
 
-	// Change the text of the timer start button
-	document.querySelector( '.timerButton' ).innerText = 'Start Timer';
+	// Change start button icon
+	document.querySelector( '.timerButton' ).innerHTML = '<img src="src/play-fill.svg" title="Play Timer">';
 
 	// Reset the value of second and minute
 	document.querySelector( '.sec' ).innerText = '00';
