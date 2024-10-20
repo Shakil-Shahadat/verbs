@@ -298,6 +298,30 @@ function clearAll()
 } // End of clearAll()
 
 
+// A function to hide the last column of the table
+function hideLastCol()
+{
+	if ( document.querySelectorAll( 'tr' )[ 0 ].querySelectorAll( 'th' )[ 4 ].style.display === '' )
+	{
+		document.querySelectorAll( 'tr' )[ 0 ].querySelectorAll( 'th' )[ 4 ].style.display = 'none';
+		for ( let i = 1; i <= 260; i++ )
+		{
+			document.querySelectorAll( 'tr' )[ i ].querySelectorAll( 'td' )[ 4 ].style.display = 'none';
+		}
+		document.querySelector( '.toggleLastCol' ).innerText = 'Show Last Column';
+	}
+	else if ( document.querySelectorAll( 'tr' )[ 0 ].querySelectorAll( 'th' )[ 4 ].style.display === 'none' )
+	{
+		document.querySelectorAll( 'tr' )[ 0 ].querySelectorAll( 'th' )[ 4 ].style.display = '';
+		for ( let i = 1; i <= 260; i++ )
+		{
+			document.querySelectorAll( 'tr' )[ i ].querySelectorAll( 'td' )[ 4 ].style.display = '';
+		}
+		document.querySelector( '.toggleLastCol' ).innerText = 'Hide Last Column';
+	}
+} // End of hideLastCol()
+
+
 // Variables for timer management
 let timerStat = false;
 let secCounter;
