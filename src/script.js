@@ -432,6 +432,11 @@ document.addEventListener( 'keydown', ( event ) => {
 		clearAll();
 	}
 
+	// Shortcut for 'Hide Last Column'
+	if ( keysPressed[ 'Control' ] && event.key == 'm' ) {
+		hideLastCol();
+	}
+
 	// Shortcut for 'Toggle Timer'
 	if ( keysPressed[ 'Control' ] && event.key == ',' ) {
 		toggleTimer();
