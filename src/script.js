@@ -382,3 +382,40 @@ function resetTimer()
 	document.querySelector( '.sec' ).innerText = '00';
 	document.querySelector( '.min' ).innerText = '00';
 } // End of resetTimer()
+
+
+// Add shortcut keys for top buttons
+let keysPressed = {};
+
+document.addEventListener( 'keydown', ( event ) => {
+	keysPressed[ event.key ] = true;
+
+	// Shortcut for 'Check All'
+	if ( keysPressed[ 'Control' ] && event.key == 'q' ) {
+		checkAll();
+	}
+
+	// Shortcut for 'Learn All'
+	if ( keysPressed[ 'Control' ] && event.key == 'y' ) {
+		learnAll();
+	}
+
+	// Shortcut for 'Clear All'
+	if ( keysPressed[ 'Control' ] && event.key == 'b' ) {
+		clearAll();
+	}
+
+	// Shortcut for 'Toggle Timer'
+	if ( keysPressed[ 'Control' ] && event.key == ',' ) {
+		toggleTimer();
+	}
+
+	// Shortcut for 'Reset Timer'
+	if ( keysPressed[ 'Control' ] && event.key == '.' ) {
+		resetTimer();
+	}
+});
+
+document.addEventListener( 'keyup', ( event ) => {
+	delete keysPressed[ event.key ];
+});
