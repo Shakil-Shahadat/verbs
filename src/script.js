@@ -477,6 +477,11 @@ document.addEventListener( 'keydown', ( event ) => {
 		clearAll();
 	}
 
+	// Shortcut for 'Clear All'
+	if ( keysPressed[ 'Control' ] && event.key == 'b' ) {
+		hideLessImp();
+	}
+
 	// Shortcut for 'Hide Last Column'
 	if ( keysPressed[ 'Control' ] && event.key == 'm' ) {
 		hideLastCol();
