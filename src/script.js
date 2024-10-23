@@ -298,6 +298,43 @@ function clearAll()
 } // End of clearAll()
 
 
+// A function to show/hide less important words
+function hideLessImp()
+{
+	if ( document.querySelectorAll( 'tr' )[ 1 ].style.display === '' )
+	{
+		// Hide less important words
+		for ( let i = 1; i <= 260; i++ )
+		{
+			if ( document.querySelectorAll( 'tr' )[ i ].querySelectorAll( 'td' )[ 1 ].innerText.includes( '*' ) === false )
+			{
+				document.querySelectorAll( 'tr' )[ i ].style.display = 'none';
+			}
+		}
+
+		// Set focus
+		document.querySelectorAll( 'tr' )[ 5 ].querySelectorAll( 'td' )[ 2 ].focus();
+
+		// Change button text
+		document.querySelector( '.toggleLessImp' ).innerText = 'Show Less Important';
+	}
+	else
+	{
+		// Show all words
+		for ( let i = 1; i <= 260; i++ )
+		{
+			document.querySelectorAll( 'tr' )[ i ].style.display = '';
+		}
+
+		// Set focus
+		document.querySelectorAll( 'tr' )[ 1 ].querySelectorAll( 'td' )[ 2 ].focus();
+
+		// Change button text
+		document.querySelector( '.toggleLessImp' ).innerText = 'Hide Less Important';
+	}
+} // End of hideLessImp()
+
+
 // A function to hide the last column of the table
 function hideLastCol()
 {
