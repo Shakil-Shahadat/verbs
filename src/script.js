@@ -345,6 +345,10 @@ function hideLastCol()
 		{
 			document.querySelectorAll( 'tr' )[ i ].querySelectorAll( 'td' )[ 4 ].style.display = 'none';
 		}
+
+		// Set focus
+		document.querySelectorAll( 'tr' )[ 1 ].querySelectorAll( 'td' )[ 2 ].focus();
+
 		document.querySelector( '.toggleLastCol' ).innerText = 'Show Last Column';
 	}
 	else if ( document.querySelectorAll( 'tr' )[ 0 ].querySelectorAll( 'th' )[ 4 ].style.display === 'none' )
@@ -354,6 +358,10 @@ function hideLastCol()
 		{
 			document.querySelectorAll( 'tr' )[ i ].querySelectorAll( 'td' )[ 4 ].style.display = '';
 		}
+
+		// Set focus
+		document.querySelectorAll( 'tr' )[ 1 ].querySelectorAll( 'td' )[ 2 ].focus();
+
 		document.querySelector( '.toggleLastCol' ).innerText = 'Hide Last Column';
 	}
 } // End of hideLastCol()
