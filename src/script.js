@@ -473,7 +473,7 @@ document.addEventListener( 'keydown', ( event ) => {
 	}
 
 	// Shortcut for 'Clear All'
-	if ( keysPressed[ 'Control' ] && event.key == 'b' ) {
+	if ( keysPressed[ 'Control' ] && event.key == 'i' ) {
 		clearAll();
 	}
 
